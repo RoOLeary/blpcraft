@@ -1,0 +1,19 @@
+columnSuffix: nkfwsuul
+contentColumnType: text
+fieldGroup: 07d11c48-f2c0-4cef-a62a-b6bdb6f97660 # Home
+handle: homeTitle
+instructions: null
+name: 'Home Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

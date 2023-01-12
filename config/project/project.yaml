@@ -1,0 +1,27 @@
+dateModified: 1673481541
+email:
+  fromEmail: roleary81@gmail.com
+  fromName: blpcraft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2bdd38d6-d68c-4167-a873-41e048a41547: Homepage # Homepage
+    3b79fdc0-5724-4d9b-a5e9-380151a05b21: 'Home Title' # Home Title
+    07d11c48-f2c0-4cef-a62a-b6bdb6f97660: Home # Home
+    99385565-aceb-43e6-8be5-09e9913c7123: blpcraft # blpcraft
+    bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
+    dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
+    e3ddf36b-3912-4e74-a971-76d6c49bb34f: blpcraft # blpcraft
+    e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
+system:
+  edition: pro
+  live: true
+  name: blpcraft
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

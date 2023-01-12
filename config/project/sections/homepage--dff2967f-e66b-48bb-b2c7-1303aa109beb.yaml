@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
+    enabledByDefault: true
+    hasUrls: true
+    template: homepage/_entry
+    uriFormat: homepage
+type: single
