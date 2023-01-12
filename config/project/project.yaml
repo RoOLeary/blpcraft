@@ -1,4 +1,4 @@
-dateModified: 1673481541
+dateModified: 1673483794
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -13,6 +13,11 @@ meta:
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
     e3ddf36b-3912-4e74-a971-76d6c49bb34f: blpcraft # blpcraft
     e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
+plugins:
+  copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true
