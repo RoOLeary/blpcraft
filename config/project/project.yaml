@@ -1,4 +1,4 @@
-dateModified: 1674389791
+dateModified: 1674411583
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -23,8 +23,9 @@ system:
   edition: pro
   live: true
   name: blpcraft
+  retryDuration: null
   schemaVersion: 4.0.0.9
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Amsterdam
 users:
   allowPublicRegistration: false
   defaultGroup: null
