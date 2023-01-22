@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11e81c318d966669288b9fccbc8606cc",
+    "content-hash": "cc00689dade61e8963fbc73d4659802a",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1146,54 +1146,6 @@
                 "html"
             ],
             "time": "2022-09-18T07:06:19+00:00"
-        },
-        {
-            "name": "fortrabbit/craft-auto-migrate",
-            "version": "2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fortrabbit/craft-auto-migrate.git",
-                "reference": "4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fortrabbit/craft-auto-migrate/zipball/4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03",
-                "reference": "4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.10.22 || ^2.1.9"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "fortrabbit\\CraftAutoMigrate\\Plugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "fortrabbit\\CraftAutoMigrate\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Oliver Stark",
-                    "homepage": "https://www.fortrabbit.com/"
-                }
-            ],
-            "description": "Runs migrations automatically",
-            "keywords": [
-                "composer",
-                "craftcms",
-                "development"
-            ],
-            "time": "2022-11-08T08:39:35+00:00"
         },
         {
             "name": "graham-campbell/result-type",
