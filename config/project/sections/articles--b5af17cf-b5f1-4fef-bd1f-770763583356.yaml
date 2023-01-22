@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: articles
+name: Articles
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
+    enabledByDefault: true
+    hasUrls: true
+    template: articles/_entry
+    uriFormat: 'articles/{slug}'
+type: channel
