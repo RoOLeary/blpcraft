@@ -1,4 +1,4 @@
-dateModified: 1674415925
+dateModified: 1674416606
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -9,7 +9,7 @@ meta:
     2bdd38d6-d68c-4167-a873-41e048a41547: Homepage # Homepage
     3b79fdc0-5724-4d9b-a5e9-380151a05b21: 'Home Title' # Home Title
     07d11c48-f2c0-4cef-a62a-b6bdb6f97660: Home # Home
-    9220423d-a02e-4fa9-a5c7-d2919ce72059: Articles # Default
+    9220423d-a02e-4fa9-a5c7-d2919ce72059: Articles # Articles
     99385565-aceb-43e6-8be5-09e9913c7123: blpcraft # blpcraft
     b5af17cf-b5f1-4fef-bd1f-770763583356: Articles # Articles
     bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
@@ -18,6 +18,10 @@ meta:
     e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
 plugins:
   copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

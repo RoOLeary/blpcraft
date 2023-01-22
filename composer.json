@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^4.3.5",
+    "craftcms/element-api": "3.0.1.1",
     "fortrabbit/craft-copy": "^2.2",
     "vlucas/phpdotenv": "^5.4.0"
   },
