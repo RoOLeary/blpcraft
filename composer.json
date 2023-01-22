@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^4.3.5",
+    "fortrabbit/craft-copy": "^2.2",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -15,7 +16,8 @@
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
-      "yiisoft/yii2-composer": true
+      "yiisoft/yii2-composer": true,
+      "fortrabbit/craft-auto-migrate": true
     },
     "sort-packages": true,
     "optimize-autoloader": true
