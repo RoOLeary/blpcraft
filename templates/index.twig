@@ -157,6 +157,13 @@
         <div id="main">
             <div class="content">
                 <h1>Welcome</h1>
+                {% set entry = craft.entries.section('homepage').one() %}
+                {% if entry %}
+                <h1>{{ entry.homeTitle }}</h1>
+                {% else %}
+                <h1>Test</h1>
+                {% endif %}
+                
                 <p>If you’re new to Craft CMS, take some time to check out the resources on the right
                     when you get a chance&mdash;especially
                     <a href="https://craftcms.com/discord" target="_blank">Discord</a>
