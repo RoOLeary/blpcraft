@@ -1,0 +1,9 @@
+app: craft-ezhk
+ssh_url: craft-ezhk@deploy.eu2.frbit.com
+git_remote: craft-ezhk/master
+before:
+    code/up: {  }
+after:
+    code/down:
+        - 'php craft migrate/all'
+        - 'php craft project-config/apply'
