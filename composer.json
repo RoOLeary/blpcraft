@@ -15,6 +15,7 @@
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
+      "fortrabbit/craft-auto-migrate": true,
       "yiisoft/yii2-composer": true
     },
     "sort-packages": true,
