@@ -1,0 +1,12 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.99385565-aceb-43e6-8be5-09e9913c7123:read' # blpcraft
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.dff2967f-e66b-48bb-b2c7-1303aa109beb:read' # Homepage
+  - 'entrytypes.2bdd38d6-d68c-4167-a873-41e048a41547:read' # Homepage
+  - 'usergroups.everyone:read'
+  - 'sections.dff2967f-e66b-48bb-b2c7-1303aa109beb:edit' # Homepage
+  - 'entrytypes.2bdd38d6-d68c-4167-a873-41e048a41547:save' # Homepage

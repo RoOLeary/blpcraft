@@ -3,8 +3,8 @@ type: craftcms
 docroot: web
 php_version: "8.0"
 webserver_type: nginx-fpm
-router_http_port: "9000"
-router_https_port: "8443"
+router_http_port: "6330"
+router_https_port: "4430"
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
