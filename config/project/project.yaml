@@ -1,4 +1,4 @@
-dateModified: 1674507084
+dateModified: 1674507564
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -23,6 +23,7 @@ meta:
     9e120ef1-ea9c-4378-aed9-b1222f1b5f60: 'Contact Title' # Contact Title
     14a89346-2314-4eeb-9ef0-25a60001b329: 'Article Video Embed' # Article Video Embed
     28d1c4ec-145f-4b3d-80de-80258706e131: 'Industry Title' # Industry Title
+    41aff8b9-a23e-4bf1-aa6c-e890d3e02ae2: Tech # Tech
     66e654c6-de20-49fb-928c-0e804ee78725: 'Article Content' # Article Content
     67c82c49-0b67-430e-9fcf-d86ec6a52116: 'Studio CTA' # Studio CTA
     74f26786-16a0-4ac7-9d32-5ced0150b2ee: Studio # Studio
@@ -33,6 +34,7 @@ meta:
     388b7453-eae7-485f-bb76-2e249d9bebcc: 'Industry Body' # Industry Body
     458df070-681a-4f31-a897-a60b7133f40e: 'Studio Industry Exp Intro' # Studio Industry Exp Intro
     739c9415-34b4-4f84-bfd1-05b525bcc721: 'Home Slider Title' # Home Slider Title
+    862b9113-ff00-421d-85d6-c2f62bc447ce: Media # Media
     9582ff3f-3e0e-43b4-881b-74219a1782d1: 'Meta Image' # Meta Image
     17596c11-92b2-407a-8edf-983b832f50c9: Meta # Meta
     31526c47-31c5-4606-9ad4-516804fb1e2f: 'Studio Title' # Studio Title
@@ -51,6 +53,7 @@ meta:
     b51d2e69-9761-4dd2-8518-83aad61fe142: 'Studio Industry Exp Title' # Studio Industry Exp Title
     bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
+    c8871f41-1c86-44e6-9a60-081437c515db: Events # Events
     ca982994-80f8-4a96-a3df-96f3cb0f33cb: Studio # Studio
     cb0ab3c4-98ff-45ba-9b00-d23ee84a1d8b: 'Contact FAQs' # Contact FAQs
     cbecaf62-cf2e-4f09-b7e1-172602f1dc5c: 'Text Sub' # Text Sub
@@ -63,9 +66,12 @@ meta:
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
     e3ddf36b-3912-4e74-a971-76d6c49bb34f: blpcraft # blpcraft
     e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
+    eae74f7e-1f4e-4b92-9d87-dd57cb4d8c38: 'Web Dev' # Web Dev
     eb930921-bea1-4f99-9f3c-4142df4afdd2: Question # Question
+    f2b3148d-4874-456e-9cb9-62f8a0054da2: 'SEO Settings'
     f4a4e19f-3c33-433b-9a94-08def95be97c: 'Studio Eyebrow Text' # Studio Eyebrow Text
     f19bb62b-d6f1-4dac-8afe-305989f7c178: 'Home Gallery Grid' # Home Gallery Grid
+    f289e817-0de6-4ee3-8e0b-cdabcbe4c4d9: 'Article Category' # Article Category
 plugins:
   copy:
     edition: standard

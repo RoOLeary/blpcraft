@@ -1,0 +1,48 @@
+fieldLayouts:
+  72597246-d418-44e4-b427-5a65b4413080:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 152ed4dc-c4b0-4a18-af15-2537400eef62 # Meta Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1fe888ad-a2a7-40d5-9b36-af34a7840298
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7dd70b17-9357-4d42-9682-f30ace3ca653 # Meta Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0b47a89c-6184-44bf-8bda-ae1041719663
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9582ff3f-3e0e-43b4-881b-74219a1782d1 # Meta Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc9ab63f-d94c-4a2d-9cce-167c5f728a00
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 9a1ba523-0f1e-4588-8564-976d032a6fee
+        userCondition: null
+handle: seoSettings
+name: 'SEO Settings'
+sortOrder: 1

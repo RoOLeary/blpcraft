@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  f6b383d6-bbb7-433b-8dea-906955572eef:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: fbd6d349-34b2-4097-9a77-925b57ce9f90
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ae5de855-06b1-477c-be0d-83dc4916b114
+        userCondition: null
+handle: events
+name: Events
+siteSettings:
+  99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
+    hasUrls: true
+    template: null
+    uriFormat: 'events/{slug}'
+structure:
+  maxLevels: null
+  uid: 66d18c6b-01aa-407b-bb38-d177f9670312
