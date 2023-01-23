@@ -19,6 +19,33 @@ return [
                 },
             ];
         },
+        'api/contact.json' => function() {
+            return [
+                'elementType' => Entry::class,
+                'criteria' => ['section' => 'contact'],
+                'transformer' => function(Entry $entry) {
+
+                    
+                    $contactFaqs = [];
+                    foreach ($entry->contactFaqs as $row){
+                        $panels[] = [
+                            'question' => $row->question,
+                            'answer' => $row->answer
+                        ];
+                    };
+
+
+                    return [
+                        'title' => $entry->title,
+                        'contactTitle' => $entry->contactTitle,
+                        'contactIntro' => $entry->contactIntro,
+                        'contactMapEmbed' => $entry->contactMapEmbed,
+                        'contactFaqs' => $contactFaqs,
+                        'jsonUrl' => UrlHelper::url("api/contact.json")
+                    ];
+                },
+            ];
+        },
         'api/studio.json' => function() {
             return [
                 'elementType' => Entry::class,
