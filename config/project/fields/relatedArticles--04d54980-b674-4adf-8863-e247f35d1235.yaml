@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a83c69d1-da9d-4df2-add8-f8261d91be86 # Articles
+handle: relatedArticles
+instructions: null
+name: 'Related Articles'
+searchable: false
+settings:
+  allowSelfRelations: false
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Entry
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\entries\EntryCondition
+  selectionLabel: null
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:b5af17cf-b5f1-4fef-bd1f-770763583356' # Articles
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries
