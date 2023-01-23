@@ -14,8 +14,7 @@ return [
                         'title' => $entry->title,
                         'homeTitle' => $entry->homeTitle,
                         'homeSubTitle' => $entry->homeSubTitle,
-                        'url' => $entry->url,
-                        'jsonUrl' => UrlHelper::url("homepage.json")
+                        'jsonUrl' => UrlHelper::url("api/homepage.json")
                     ];
                 },
             ];
@@ -48,7 +47,6 @@ return [
                         'studioIndustryExpTitle' => $entry->studioIndustryExpTitle,
                         'studioIndustryExpIntro' => $entry->studioIndustryExpIntro,
                         'studioIndustryExpPanels' => $panels,
-                        'url' => $entry->url,
                         'jsonUrl' => UrlHelper::url("api/studio.json")
                     ];
                 },
