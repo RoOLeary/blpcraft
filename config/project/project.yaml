@@ -1,4 +1,4 @@
-dateModified: 1674505185
+dateModified: 1674507084
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -7,14 +7,18 @@ meta:
   __names__:
     0e446a42-ea62-4b02-b300-253771e4a5f4: Contact # Contact
     0fdc14d0-dcd3-44c4-a3fd-8886740dceb1: 'Public Schema' # Public Schema
+    1cbdb7f4-470b-4fe3-8755-2c7cd9052403: 'Slide Image' # Slide Image
     01dccff3-01ad-4244-86f8-bc11b79456fd: 'Studio More About Text' # Studio More About Text
+    1f97f6d1-86f0-4c9a-aac9-13c5f2ecc30a: 'Text Background' # Text Background
     2a1d967c-a824-49c2-a84f-727409a9265c: 'Article Image Url' # Article Image Url
     2bdd38d6-d68c-4167-a873-41e048a41547: Homepage # Homepage
     3b79fdc0-5724-4d9b-a5e9-380151a05b21: 'Home Title' # Home Title
+    4a745322-2056-4598-8d22-d45429b4da4f: 'Home Slider Matrix' # Home Slider Matrix
     04d54980-b674-4adf-8863-e247f35d1235: 'Related Articles' # Related Articles
     07d11c48-f2c0-4cef-a62a-b6bdb6f97660: Home # Home
     7dd70b17-9357-4d42-9682-f30ace3ca653: 'Meta Description' # Meta Description
     7e55cefd-659d-4e10-b31d-4e0a68dad821: 'Article Excerpt' # Article Excerpt
+    9c81dc50-9b0b-4bb0-a57a-5e5ee4bcb136: Width # Width
     9d39892b-57b3-48fb-90b5-4fcf230546c6: Answer # Answer
     9e120ef1-ea9c-4378-aed9-b1222f1b5f60: 'Contact Title' # Contact Title
     14a89346-2314-4eeb-9ef0-25a60001b329: 'Article Video Embed' # Article Video Embed
@@ -23,20 +27,25 @@ meta:
     67c82c49-0b67-430e-9fcf-d86ec6a52116: 'Studio CTA' # Studio CTA
     74f26786-16a0-4ac7-9d32-5ced0150b2ee: Studio # Studio
     82a05a0b-aa09-4d1a-b32b-183c733990fd: 'Article Title' # Article Title
+    130bdacc-b8f3-4805-b9a3-0f853bcaf3a9: Src # Src
     152ed4dc-c4b0-4a18-af15-2537400eef62: 'Meta Title' # Meta Title
     378fe6e9-2e49-4fa3-b100-bee4a5e9c3f3: 'Studio Intro' # Studio Intro
     388b7453-eae7-485f-bb76-2e249d9bebcc: 'Industry Body' # Industry Body
     458df070-681a-4f31-a897-a60b7133f40e: 'Studio Industry Exp Intro' # Studio Industry Exp Intro
+    739c9415-34b4-4f84-bfd1-05b525bcc721: 'Home Slider Title' # Home Slider Title
     9582ff3f-3e0e-43b4-881b-74219a1782d1: 'Meta Image' # Meta Image
     17596c11-92b2-407a-8edf-983b832f50c9: Meta # Meta
     31526c47-31c5-4606-9ad4-516804fb1e2f: 'Studio Title' # Studio Title
+    66423ff9-39a2-4ae0-ba45-f6460d7a2408: 'Slide Color' # Slide Color
     615561c0-3497-403a-9570-c597264c195f: 'Studio Industry Exp Panels' # Studio Industry Exp Panels
     9220423d-a02e-4fa9-a5c7-d2919ce72059: Articles # Articles
     99385565-aceb-43e6-8be5-09e9913c7123: blpcraft # blpcraft
     a83c69d1-da9d-4df2-add8-f8261d91be86: Articles # Articles
     a922132f-4676-4bc2-98c5-f375e05118d8: SubTitle # SubTitle
+    ab8423ba-ed2f-4a50-9f8c-3e1f9f2bfc9f: Caption # Caption
     abed56c7-044e-4b22-af1d-dc0cc528b844: Contact # Contact
     ad575b29-c9e7-42ca-b2fa-894a02318574: 'Studio More About' # Studio More About
+    af64c547-1d65-4871-aa82-edd8612f827f: Height # Height
     b2e26985-c159-434d-b9e4-6c346c2c5cde: 'Contact Map Embed' # Contact Map Embed
     b5af17cf-b5f1-4fef-bd1f-770763583356: Articles # Articles
     b51d2e69-9761-4dd2-8518-83aad61fe142: 'Studio Industry Exp Title' # Studio Industry Exp Title
@@ -44,8 +53,11 @@ meta:
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
     ca982994-80f8-4a96-a3df-96f3cb0f33cb: Studio # Studio
     cb0ab3c4-98ff-45ba-9b00-d23ee84a1d8b: 'Contact FAQs' # Contact FAQs
+    cbecaf62-cf2e-4f09-b7e1-172602f1dc5c: 'Text Sub' # Text Sub
     cd72bf89-e613-4391-ac7e-580384af970e: Contact # Contact
     d21b2885-da47-45e0-9465-6953401a8878: 'Contact Intro' # Contact Intro
+    d5111eb7-7238-465f-8c95-5e0faa1361d3: 'Text Heading' # Text Heading
+    da570282-670c-41b7-8a5a-22e2ae50ef19: Original # Original
     dcefe02c-84a8-42bc-aee9-221f9935c656: 'Article Type' # Article Type
     dd43e7fb-8a8d-4e4a-80dd-55343718f638: 'Article Image Alt' # Article Image Alt
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
@@ -53,6 +65,7 @@ meta:
     e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
     eb930921-bea1-4f99-9f3c-4142df4afdd2: Question # Question
     f4a4e19f-3c33-433b-9a94-08def95be97c: 'Studio Eyebrow Text' # Studio Eyebrow Text
+    f19bb62b-d6f1-4dac-8afe-305989f7c178: 'Home Gallery Grid' # Home Gallery Grid
 plugins:
   copy:
     edition: standard

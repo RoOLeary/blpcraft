@@ -1,0 +1,172 @@
+changedFieldIndicator: 780504328
+field: f19bb62b-d6f1-4dac-8afe-305989f7c178 # Home Gallery Grid
+fieldLayouts:
+  f8e2cf96-396b-421f-987c-7ef5cc69be15:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 130bdacc-b8f3-4805-b9a3-0f853bcaf3a9 # Src
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b79c7aca-e769-4a71-9a99-53b4b4d53176
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: da570282-670c-41b7-8a5a-22e2ae50ef19 # Original
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1b0df8e9-449f-4d87-ae9b-6c2a13b3d3c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9c81dc50-9b0b-4bb0-a57a-5e5ee4bcb136 # Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9d789a3-db56-484f-8c6e-d45943e11085
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af64c547-1d65-4871-aa82-edd8612f827f # Height
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32dbf448-c0be-4458-a1f6-c31a8251d3a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ab8423ba-ed2f-4a50-9f8c-3e1f9f2bfc9f # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80700bf8-e5fd-4b5e-8642-8055ac769aa7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 36c56a2f-66f4-464d-9603-b1526cb83c59
+        userCondition: null
+fields:
+  9c81dc50-9b0b-4bb0-a57a-5e5ee4bcb136: # Width
+    columnSuffix: vjfgmwzf
+    contentColumnType: text
+    fieldGroup: null
+    handle: width
+    instructions: null
+    name: Width
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  130bdacc-b8f3-4805-b9a3-0f853bcaf3a9: # Src
+    columnSuffix: juvgpyzj
+    contentColumnType: text
+    fieldGroup: null
+    handle: src
+    instructions: null
+    name: Src
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ab8423ba-ed2f-4a50-9f8c-3e1f9f2bfc9f: # Caption
+    columnSuffix: rrcoqfkb
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: null
+    name: Caption
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  af64c547-1d65-4871-aa82-edd8612f827f: # Height
+    columnSuffix: mavcuhgm
+    contentColumnType: text
+    fieldGroup: null
+    handle: height
+    instructions: null
+    name: Height
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  da570282-670c-41b7-8a5a-22e2ae50ef19: # Original
+    columnSuffix: qxovjeki
+    contentColumnType: text
+    fieldGroup: null
+    handle: original
+    instructions: null
+    name: Original
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

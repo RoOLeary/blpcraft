@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 07d11c48-f2c0-4cef-a62a-b6bdb6f97660 # Home
+handle: homeGalleryGrid
+instructions: null
+name: 'Home Gallery Grid'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 1291557519
+  contentTable: '{{%stc_homegallerygrid}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

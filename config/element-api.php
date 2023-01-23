@@ -10,10 +10,38 @@ return [
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'homepage'],
                 'transformer' => function(Entry $entry) {
+
+                    $homeGalleryGrid = [];
+                    foreach($entry->homeGalleryGrid as $row){
+                        $homeGalleryGrid[] = [
+                            'src' => $row->src,
+                            'original' => $row->original,
+                            'width' => $row->width,
+                            'height' => $row->height,
+                            'caption' => $row->caption
+                        ];
+                    };
+
+                    $homeSliderMatrix = [];
+                    foreach($entry->homeSliderMatrix as $row){
+                        $homeSliderMatrix[] = [
+                            'textSub' => $row->textSub,
+                            'textHeading' => $row->textHeading,
+                            'textBackground' => $row->textBackground,
+                            'slideImage' => $row->slideImage,
+                            'slideColor' => $row->slideColor
+                        ];
+                    };
+
+
+
                     return [
                         'title' => $entry->title,
                         'homeTitle' => $entry->homeTitle,
                         'homeSubTitle' => $entry->homeSubTitle,
+                        'homeSliderMatrix' => $homeSliderMatrix,
+                        'homeGalleryGrid' => $homeGalleryGrid,
+                        'homeSliderTitle' => $entry->homeSliderTitle,
                         'jsonUrl' => UrlHelper::url("api/homepage.json")
                     ];
                 },

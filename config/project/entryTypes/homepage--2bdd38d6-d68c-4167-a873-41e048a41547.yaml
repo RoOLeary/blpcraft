@@ -64,8 +64,86 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: f19bb62b-d6f1-4dac-8afe-305989f7c178 # Home Gallery Grid
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5429c139-b374-4da9-b785-a9ef30303031
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 739c9415-34b4-4f84-bfd1-05b525bcc721 # Home Slider Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1baa18ad-27bd-4de9-abcb-b52892500777
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4a745322-2056-4598-8d22-d45429b4da4f # Home Slider Matrix
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d64a1738-65b7-4607-9273-a46b01df489c
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 4cec6b05-014b-4e78-b472-830064d3db85
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 152ed4dc-c4b0-4a18-af15-2537400eef62 # Meta Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b664a3f-fd57-4e98-b62f-7ebab66f6a9e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7dd70b17-9357-4d42-9682-f30ace3ca653 # Meta Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11362a3e-9ca3-4d04-9318-9414b834460c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9582ff3f-3e0e-43b4-881b-74219a1782d1 # Meta Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b70cdfd7-8717-409e-a486-eadd3a1c81ff
+            userCondition: null
+            warning: null
+            width: 100
+        name: Meta
+        uid: 71b32149-9e7a-4241-bbd2-1f76e8a8ea5a
         userCondition: null
 handle: homepage
 hasTitleField: false

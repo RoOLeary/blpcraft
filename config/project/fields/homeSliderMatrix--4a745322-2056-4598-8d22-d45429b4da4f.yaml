@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 07d11c48-f2c0-4cef-a62a-b6bdb6f97660 # Home
+handle: homeSliderMatrix
+instructions: null
+name: 'Home Slider Matrix'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 2073327253
+  contentTable: '{{%stc_homeslidermatrix}}'
+  fieldLayout: matrix
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
