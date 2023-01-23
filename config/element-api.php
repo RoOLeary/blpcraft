@@ -28,7 +28,7 @@ return [
                     
                     $contactFaqs = [];
                     foreach ($entry->contactFaqs as $row){
-                        $panels[] = [
+                        $contactFaqs[] = [
                             'question' => $row->question,
                             'answer' => $row->answer
                         ];
