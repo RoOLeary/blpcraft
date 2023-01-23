@@ -43,6 +43,8 @@ return [
                         'studioTitle' => $entry->studioTitle,
                         'studioIntro' => $entry->studioIntro,
                         'studioCta' => $entry->studioCta,
+                        'studioMoreAbout' => $entry->studioMoreAbout,
+                        'studioMoreAboutText' => $entry->studioMoreAboutText,
                         'studioIndustryExpTitle' => $entry->studioIndustryExpTitle,
                         'studioIndustryExpIntro' => $entry->studioIndustryExpIntro,
                         'studioIndustryExpPanels' => $panels,
