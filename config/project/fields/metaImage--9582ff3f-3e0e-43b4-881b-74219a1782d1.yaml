@@ -1,0 +1,19 @@
+columnSuffix: bgvmcdek
+contentColumnType: text
+fieldGroup: 17596c11-92b2-407a-8edf-983b832f50c9 # Meta
+handle: metaImage
+instructions: null
+name: 'Meta Image'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

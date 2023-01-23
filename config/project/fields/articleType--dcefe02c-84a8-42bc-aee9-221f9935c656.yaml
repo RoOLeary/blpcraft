@@ -1,0 +1,34 @@
+columnSuffix: pgmrouny
+contentColumnType: string
+fieldGroup: a83c69d1-da9d-4df2-add8-f8261d91be86 # Articles
+handle: articleType
+instructions: null
+name: 'Article Type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Text
+        -
+          - value
+          - text
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Video
+        -
+          - value
+          - video
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,19 @@
+columnSuffix: pmeorgsf
+contentColumnType: text
+fieldGroup: a83c69d1-da9d-4df2-add8-f8261d91be86 # Articles
+handle: articleImageUrl
+instructions: null
+name: 'Article Image Url'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

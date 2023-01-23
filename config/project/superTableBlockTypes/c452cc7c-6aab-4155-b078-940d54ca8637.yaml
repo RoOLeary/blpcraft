@@ -1,0 +1,84 @@
+changedFieldIndicator: 652385526
+field: cb0ab3c4-98ff-45ba-9b00-d23ee84a1d8b # Contact FAQs
+fieldLayouts:
+  d84d48b3-1cc6-4781-88fe-6902f64ac9bd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: eb930921-bea1-4f99-9f3c-4142df4afdd2 # Question
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ae572f89-68c0-4719-bba7-ddce1465e5d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9d39892b-57b3-48fb-90b5-4fcf230546c6 # Answer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b4d7a987-2b00-41c9-8bc5-d3685a63deea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e776fc3e-9547-4b25-853f-67b730947b2b
+        userCondition: null
+fields:
+  9d39892b-57b3-48fb-90b5-4fcf230546c6: # Answer
+    columnSuffix: xjnguohf
+    contentColumnType: text
+    fieldGroup: null
+    handle: answer
+    instructions: null
+    name: Answer
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  eb930921-bea1-4f99-9f3c-4142df4afdd2: # Question
+    columnSuffix: ogjtlmco
+    contentColumnType: text
+    fieldGroup: null
+    handle: question
+    instructions: 'Enter the question'
+    name: Question
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

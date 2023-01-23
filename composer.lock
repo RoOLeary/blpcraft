@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adcb96bca6112158588a13f1c78e00c8",
+    "content-hash": "581376ef3efcd24ef210d53ab1277042",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
@@ -640,6 +640,44 @@
             "time": "2022-07-07T19:50:10+00:00"
         },
         {
+            "name": "craftcms/html-field",
+            "version": "2.0.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/html-field/zipball/3030f7878335b8c7163b1db354fdc22c083d131c",
+                "reference": "3030f7878335b8c7163b1db354fdc22c083d131c",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-alpha.1",
+                "php": "^8.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "craft\\htmlfield\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Base class for Craft CMS field types with HTML values.",
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/html-field/issues?state=open",
+                "source": "https://github.com/craftcms/html-field",
+                "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
+                "rss": "https://github.com/craftcms/html-field/commits/main.atom"
+            },
+            "time": "2022-11-16T11:13:37+00:00"
+        },
+        {
             "name": "craftcms/oauth2-craftid",
             "version": "1.0.0.1",
             "dist": {
@@ -714,6 +752,57 @@
                 "plugin"
             ],
             "time": "2021-02-18T02:01:38+00:00"
+        },
+        {
+            "name": "craftcms/redactor",
+            "version": "3.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/19578a713a06aedd4e0efb5dd80cb3947a5849c4",
+                "reference": "19578a713a06aedd4e0efb5dd80cb3947a5849c4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-alpha.1",
+                "craftcms/html-field": "^2.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor",
+                "handle": "redactor",
+                "documentationUrl": "https://github.com/craftcms/redactor/blob/v2/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\redactor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "html",
+                "redactor",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/redactor/issues?state=open",
+                "source": "https://github.com/craftcms/redactor",
+                "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
+                "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
+            },
+            "time": "2023-01-01T01:36:37+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -4407,6 +4496,91 @@
                 "templating"
             ],
             "time": "2022-09-28T08:42:51+00:00"
+        },
+        {
+            "name": "verbb/base",
+            "version": "2.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/verbb-base/zipball/3a7c0b9c36d446d2765e467161c7d40aa41f1ae4",
+                "reference": "3a7c0b9c36d446d2765e467161c7d40aa41f1ae4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "yii-module",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\base\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Common utilities and building-blocks for Verbb plugins for Craft CMS.",
+            "time": "2022-09-30T11:02:57+00:00"
+        },
+        {
+            "name": "verbb/super-table",
+            "version": "3.0.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/fdcc8b47ce37abf26de197f598af0e58be158d4f",
+                "reference": "fdcc8b47ce37abf26de197f598af0e58be158d4f",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "php": "^8.0.2",
+                "verbb/base": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Super Table",
+                "handle": "super-table",
+                "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+                "documentationUrl": "https://github.com/verbb/super-table",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/super-table/craft-4/CHANGELOG.md",
+                "class": "verbb\\supertable\\SuperTable"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\supertable\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "super table"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/super-table/issues?state=open",
+                "source": "https://github.com/verbb/super-table",
+                "docs": "https://github.com/verbb/super-table",
+                "rss": "https://github.com/verbb/super-table/commits/v2.atom"
+            },
+            "time": "2022-12-10T00:37:08+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

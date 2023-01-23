@@ -1,0 +1,19 @@
+columnSuffix: qchjpwqn
+contentColumnType: text
+fieldGroup: 74f26786-16a0-4ac7-9d32-5ced0150b2ee # Studio
+handle: studioTitle
+instructions: null
+name: 'Studio Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

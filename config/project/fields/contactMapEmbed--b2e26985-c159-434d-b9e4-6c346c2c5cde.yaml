@@ -1,0 +1,27 @@
+columnSuffix: fpoulppb
+contentColumnType: text
+fieldGroup: cd72bf89-e613-4391-ac7e-580384af970e # Contact
+handle: contactMapEmbed
+instructions: null
+name: 'Contact Map Embed'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

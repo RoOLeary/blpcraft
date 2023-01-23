@@ -1,0 +1,27 @@
+columnSuffix: knprsdnh
+contentColumnType: text
+fieldGroup: a83c69d1-da9d-4df2-add8-f8261d91be86 # Articles
+handle: articleExcerpt
+instructions: 'A brief excerpt, will be the lead column in an article'
+name: 'Article Excerpt'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

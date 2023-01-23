@@ -1,0 +1,116 @@
+changedFieldIndicator: 2027297138
+field: 615561c0-3497-403a-9570-c597264c195f # Studio Industry Exp Panels
+fieldLayouts:
+  5b658624-c13a-4893-b24e-b4d24ba0522d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a922132f-4676-4bc2-98c5-f375e05118d8 # SubTitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f043229-988b-4d80-b918-c8bd4bdd0efb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 28d1c4ec-145f-4b3d-80de-80258706e131 # Industry Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f689e9b-4a4c-42ee-941e-553ebc3a5543
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 388b7453-eae7-485f-bb76-2e249d9bebcc # Industry Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f8246596-acf2-43d8-b508-ecf6aa53835e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4cc8a95f-d36c-4458-8256-09dfc448120a
+        userCondition: null
+fields:
+  28d1c4ec-145f-4b3d-80de-80258706e131: # Industry Title
+    columnSuffix: cwapnqhw
+    contentColumnType: text
+    fieldGroup: null
+    handle: industryTitle
+    instructions: null
+    name: 'Industry Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  388b7453-eae7-485f-bb76-2e249d9bebcc: # Industry Body
+    columnSuffix: zaysxbai
+    contentColumnType: text
+    fieldGroup: null
+    handle: industryBody
+    instructions: null
+    name: 'Industry Body'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  a922132f-4676-4bc2-98c5-f375e05118d8: # SubTitle
+    columnSuffix: ozfrdugt
+    contentColumnType: text
+    fieldGroup: null
+    handle: subtitle
+    instructions: null
+    name: SubTitle
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

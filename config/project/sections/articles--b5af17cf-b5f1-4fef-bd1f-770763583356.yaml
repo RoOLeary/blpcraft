@@ -7,10 +7,10 @@ previewTargets:
     __assoc__:
       -
         - label
-        - 'Primary entry page'
+        - Local
       -
         - urlFormat
-        - '{url}'
+        - 'http://localhost:3000/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug=articles/{slug}'
       -
         - refresh
         - '1'

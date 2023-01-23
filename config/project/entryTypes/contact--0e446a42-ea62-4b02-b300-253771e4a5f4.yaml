@@ -1,0 +1,133 @@
+fieldLayouts:
+  40dbedc0-fa8a-4528-8976-54a4060bf88a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: df40820b-473c-4990-b641-61919de9faf2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e120ef1-ea9c-4378-aed9-b1222f1b5f60 # Contact Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f355e0bd-0c3b-4ce3-9c93-2ab6fc07a4b7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d21b2885-da47-45e0-9465-6953401a8878 # Contact Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c0e6022-0231-46c4-a0c3-b5c8dc54560e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb0ab3c4-98ff-45ba-9b00-d23ee84a1d8b # Contact FAQs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ed6be2ec-0232-46a7-a8bb-206a12b5f7c1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b2e26985-c159-434d-b9e4-6c346c2c5cde # Contact Map Embed
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d6aaea9f-f70b-4c7b-a909-1440e138c2fb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a7a3af5c-c1b3-4f3b-9357-7cd563d89a3b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 152ed4dc-c4b0-4a18-af15-2537400eef62 # Meta Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f6e1895-43e5-4917-84be-2a1d4b1bb872
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7dd70b17-9357-4d42-9682-f30ace3ca653 # Meta Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0cfbdf6-be5e-48aa-be75-06430c0ad47e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9582ff3f-3e0e-43b4-881b-74219a1782d1 # Meta Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 243cea3b-a889-42c9-a8fb-e889357f51bb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Meta
+        uid: 2d5ea45b-ae06-49d6-84ec-f124c6b1a285
+        userCondition: null
+handle: contact
+hasTitleField: false
+name: Contact
+section: abed56c7-044e-4b22-af1d-dc0cc528b844 # Contact
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

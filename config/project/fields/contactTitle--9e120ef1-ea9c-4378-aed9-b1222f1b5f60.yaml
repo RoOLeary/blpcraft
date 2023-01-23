@@ -1,0 +1,19 @@
+columnSuffix: rykhfhhm
+contentColumnType: text
+fieldGroup: cd72bf89-e613-4391-ac7e-580384af970e # Contact
+handle: contactTitle
+instructions: null
+name: 'Contact Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

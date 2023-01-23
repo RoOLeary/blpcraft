@@ -1,0 +1,44 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 74f26786-16a0-4ac7-9d32-5ced0150b2ee # Studio
+handle: studioIndustryExpPanels
+instructions: null
+name: 'Studio Industry Exp Panels'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 219933888
+  columns:
+    __assoc__:
+      -
+        - e84cc488-ad5c-4392-9648-d149ddef116c
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 197e6484-8ff9-4f85-a16b-baedd1e8e497
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 8a36b91d-33d3-4de3-8c77-dc19c54751ef
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_studioindustryexppanels}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

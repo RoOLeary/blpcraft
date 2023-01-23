@@ -1,0 +1,58 @@
+columnSuffix: zqdrynmn
+contentColumnType: text
+fieldGroup: 74f26786-16a0-4ac7-9d32-5ced0150b2ee # Studio
+handle: studioCta
+instructions: null
+name: 'Studio CTA'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Link Text'
+            -
+              - handle
+              - linkText
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Link URL'
+            -
+              - handle
+              - linkUrl
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

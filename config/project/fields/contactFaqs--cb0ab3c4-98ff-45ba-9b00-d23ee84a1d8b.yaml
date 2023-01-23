@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: cd72bf89-e613-4391-ac7e-580384af970e # Contact
+handle: contactFaqs
+instructions: null
+name: 'Contact FAQs'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 987991496
+  contentTable: '{{%stc_contactfaqs}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
