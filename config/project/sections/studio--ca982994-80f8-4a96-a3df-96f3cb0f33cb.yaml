@@ -21,7 +21,7 @@ previewTargets:
         - Production
       -
         - urlFormat
-        - 'http://localhost:3000/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&uri={slug}'
+        - 'https://busylittlepixels.com/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&uri={slug}'
       -
         - refresh
         - '1'
