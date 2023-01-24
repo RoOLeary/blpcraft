@@ -21,7 +21,7 @@ previewTargets:
         - Production
       -
         - urlFormat
-        - 'https://busylittlepixels.com/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug={slug}'
+        - 'https://busylittlepixels.com/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug=articles/{slug}'
       -
         - refresh
         - '1'

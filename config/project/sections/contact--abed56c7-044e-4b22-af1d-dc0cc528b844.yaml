@@ -14,6 +14,17 @@ previewTargets:
       -
         - refresh
         - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - Production
+      -
+        - urlFormat
+        - 'https://busylittlepixels.com/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&slug={slug}'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
