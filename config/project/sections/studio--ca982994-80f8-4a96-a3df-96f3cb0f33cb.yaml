@@ -10,7 +10,18 @@ previewTargets:
         - Local
       -
         - urlFormat
-        - 'http://localhost:3000/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug={slug}'
+        - 'http://localhost:3000/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&slug={slug}'
+      -
+        - refresh
+        - '1'
+  -
+    __assoc__:
+      -
+        - label
+        - Production
+      -
+        - urlFormat
+        - 'http://localhost:3000/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&slug={slug}'
       -
         - refresh
         - '1'
