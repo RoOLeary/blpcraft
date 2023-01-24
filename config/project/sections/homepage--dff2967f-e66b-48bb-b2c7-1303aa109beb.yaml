@@ -10,7 +10,7 @@ previewTargets:
         - Local
       -
         - urlFormat
-        - 'http://localhost:3000/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug={''/''}'
+        - 'http://localhost:3000/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug={slug}'
       -
         - refresh
         - '1'
@@ -21,7 +21,7 @@ previewTargets:
         - Production
       -
         - urlFormat
-        - 'http://busylittlepixels.com/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug={''/''}'
+        - 'https://busylittlepixels.com/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug={slug}'
       -
         - refresh
         - '1'
@@ -29,7 +29,7 @@ propagationMethod: all
 siteSettings:
   99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
     enabledByDefault: true
-    hasUrls: true
-    template: homepage/_entry
-    uriFormat: __home__
+    hasUrls: false
+    template: null
+    uriFormat: null
 type: single
