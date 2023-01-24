@@ -10,7 +10,7 @@ previewTargets:
         - Local
       -
         - urlFormat
-        - 'http://localhost:3000/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug=articles/{slug}'
+        - 'http://localhost:3000/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&slug=articles/{slug}'
       -
         - refresh
         - '1'
@@ -21,7 +21,7 @@ previewTargets:
         - Production
       -
         - urlFormat
-        - 'https://busylittlepixels.com/api/preview?token=WxQXrQAuWGI1LvhIKpXjSGESi8ff8NcjjmMNiQZVB7H6pml6uRVNcoCL0ZQEcwQv&canonicalId&slug=articles/{slug}'
+        - 'https://busylittlepixels.com/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&slug=articles/{slug}'
       -
         - refresh
         - '1'
