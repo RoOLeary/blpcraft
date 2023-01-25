@@ -267,6 +267,7 @@ return [
                         'articleImageUrl' => $entry->articleImageUrl,
                         'articleImageAlt' => $entry->articleImageAlt,
                         'articleVideoEmbed' => $entry->articleVideoEmbed,
+                        'articleContent' => $entry->articleContent,
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     ];
                 },
