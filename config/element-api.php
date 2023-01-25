@@ -126,7 +126,6 @@ return [
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
                         'articleExcerpt' => $entry->articleExcerpt,
-                        // 'category' => $relatedArticles,
                         // 'catId' => $articleCategory,
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     
@@ -263,6 +262,7 @@ return [
                         'slug' => $entry->slug,
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
+                        'articleType' => $entry->articleType,
                         'articleExcerpt' => $entry->articleExcerpt,
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     ];

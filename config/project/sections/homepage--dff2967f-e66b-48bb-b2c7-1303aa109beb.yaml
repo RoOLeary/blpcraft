@@ -3,18 +3,7 @@ enableVersioning: true
 handle: homepage
 name: Homepage
 previewTargets:
-  -
-    __assoc__:
-      -
-        - label
-        - Local
-      -
-        - urlFormat
-        - 'http://localhost:3000/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&uri='
-      -
-        - refresh
-        - '1'
-  -
+  1:
     __assoc__:
       -
         - label
