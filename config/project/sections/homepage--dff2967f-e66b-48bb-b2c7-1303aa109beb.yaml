@@ -14,11 +14,22 @@ previewTargets:
       -
         - refresh
         - '1'
+  2:
+    __assoc__:
+      -
+        - label
+        - Local
+      -
+        - urlFormat
+        - 'http://localhost:3000/api/preview?token=nLMYzdELRP22DvJk86ADfGytdveGkuBR&canonicalId&uri='
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
     enabledByDefault: true
-    hasUrls: true
+    hasUrls: false
     template: null
-    uriFormat: __home__
+    uriFormat: null
 type: single

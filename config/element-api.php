@@ -262,6 +262,7 @@ return [
                         'slug' => $entry->slug,
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
+                        'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                         'articleType' => $entry->articleType,
                         'articleExcerpt' => $entry->articleExcerpt,
                         'articleImageUrl' => $entry->articleImageUrl,
