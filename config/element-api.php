@@ -122,6 +122,7 @@ return [
                     //     ->all();
 
                     return [
+                        'slug' => $entry->slug,
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
                         'articleExcerpt' => $entry->articleExcerpt,
