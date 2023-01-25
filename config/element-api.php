@@ -106,6 +106,32 @@ return [
                     ];
                 },
             ];
-        },       
+        }, 
+        'api/articles.json' => function() {
+            \Craft::$app->response->headers->set('Access-Control-Allow-Origin', '*');
+            return [
+                'elementType' => Entry::class,
+                'criteria' => ['section' => 'articles'],
+                'elementsPerPage' => 10,
+                'transformer' => function(Entry $entry) {
+
+                    // $articleCategory = $entry->category->one()->id;
+                    // $relatedArticles = Entry::find()
+                    //     ->section('articles')
+                    //     ->limit(10)
+                    //     ->all();
+
+                    return [
+                        'title' => $entry->title,
+                        'articleTitle' => $entry->articleTitle,
+                        'articleExcerpt' => $entry->articleExcerpt,
+                        // 'category' => $relatedArticles,
+                        // 'catId' => $articleCategory,
+                        'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
+                    
+                    ];
+                },
+            ];
+        },      
     ]
 ];
