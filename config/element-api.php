@@ -93,6 +93,14 @@ return [
                                     'videoEmbedCode' => $block->videoEmbedCode,
                                 ];
                             break;
+                            case 'expertise':
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'expertise',
+                                    // 'videoTitle' => $block->videoTitle,
+                                    // 'videoEmbedCode' => $block->videoEmbedCode,
+                                ];
+                            break;
                             case 'imageSlider':
                                 $SuperTableRows = [];
                                 foreach ($block->sliderStage->all() as $row){
