@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: null
+  uid: b4511cd0-a10f-4cde-868c-e18d9036ad70
+type: structure

@@ -1,4 +1,4 @@
-dateModified: 1674774383
+dateModified: 1674774851
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -41,6 +41,7 @@ meta:
     28d1c4ec-145f-4b3d-80de-80258706e131: 'Industry Title' # Industry Title
     36bdbce2-2825-426e-aba0-14055990c589: Answer # Answer
     41aff8b9-a23e-4bf1-aa6c-e890d3e02ae2: Tech # Tech
+    42e21bcb-7d09-47a0-a09f-73630de0223e: Pages # Pages
     61a7a5ad-a56a-4dcc-83ec-a291e5ef9360: 'Slide Image' # Slide Image
     66e654c6-de20-49fb-928c-0e804ee78725: 'Article Content' # Article Content
     67c82c49-0b67-430e-9fcf-d86ec6a52116: 'Studio CTA' # Studio CTA
@@ -102,6 +103,7 @@ meta:
     d5111eb7-7238-465f-8c95-5e0faa1361d3: 'Text Heading' # Text Heading
     da4dc93a-b81c-4c51-9047-6b34e4473fb3: Expertise # Expertise
     da570282-670c-41b7-8a5a-22e2ae50ef19: Original # Original
+    dca16962-65ef-41a6-b679-90fcb1847a74: Pages # Pages
     dcefe02c-84a8-42bc-aee9-221f9935c656: 'Article Type' # Article Type
     dd43e7fb-8a8d-4e4a-80dd-55343718f638: 'Article Image Alt' # Article Image Alt
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
