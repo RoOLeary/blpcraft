@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1801701169
+      changedFieldIndicator: 633808878
       columns:
         __assoc__:
           -
@@ -95,7 +95,7 @@ fields:
                   - width
                   - ''
           -
-            - 130a5ec2-3d40-4467-a779-d8f0d5bdb283 # Slider Color
+            - 130a5ec2-3d40-4467-a779-d8f0d5bdb283 # Slide Color
             -
               __assoc__:
                 -

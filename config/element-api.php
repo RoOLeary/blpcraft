@@ -52,7 +52,39 @@ return [
                                     'faqs' => $faqRows
                                 ];
                             break;
-                           
+                            case 'gallerygrid':
+                                $gallery = [];
+                                foreach($block->galleryGrid->all() as $row){
+                                    $gallery[] = [
+                                        'src' => $row->src,
+                                        'original' => $row->original,
+                                        'width' => $row->width,
+                                        'height' => $row->height,
+                                        'caption' => $row->caption
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'gallerygrid',
+                                    'galleryGridTitle' => $block->galleryGridTitle,
+                                    'gallery' => $gallery
+                                ];
+                            break;
+                            case 'carousel':
+                                $carouselPanels = [];
+                                foreach ($block->carouselItems->all() as $row){
+                                    $carouselPanels[] = [
+                                        'carouselImageUrl' => $row->carouselImageUrl,
+                                        'carouselTitle' => $row->carouselTitle,
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'carousel',
+                                    'carouselTitle' => $block->carouselTitle,
+                                    'carouselItems' => $carouselPanels,
+                                ];
+                            break;
                             case 'video':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,
