@@ -11,31 +11,24 @@ return [
                 'criteria' => ['section' => 'homepage'],
                 'transformer' => function(Entry $entry) {
 
-                    $homeGalleryGrid = [];
-                    foreach($entry->homeGalleryGrid as $row){
-                        $homeGalleryGrid[] = [
-                            'src' => $row->src,
-                            'original' => $row->original,
-                            'width' => $row->width,
-                            'height' => $row->height,
-                            'caption' => $row->caption
-                        ];
-                    };
-
-                    $homeSliderMatrix = [];
-                    foreach($entry->homeSliderMatrix as $row){
-                        $homeSliderMatrix[] = [
-                            'textSub' => $row->textSub,
-                            'textHeading' => $row->textHeading,
-                            'textBackground' => $row->textBackground,
-                            'slideImage' => $row->slideImage,
-                            'slideColor' => $row->slideColor
-                        ];
-                    };
-
                     $bodyBlocks = [];
                     foreach ($entry->pageBlocks->all() as $block) {
                         switch ($block->type->handle) {
+                            case 'carousel':
+                                $carouselPanels = [];
+                                foreach ($block->carouselItems->all() as $row){
+                                    $carouselPanels[] = [
+                                        'carouselImageUrl' => $row->carouselImageUrl,
+                                        'carouselTitle' => $row->carouselTitle,
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'carousel',
+                                    'carouselTitle' => $block->carouselTitle,
+                                    'carouselItems' => $carouselPanels,
+                                ];
+                            break; 
                             case 'faqs':
                                 $faqRows = [];
                                 foreach($block->faqs->all() as $row){
@@ -69,38 +62,7 @@ return [
                                     'galleryGridTitle' => $block->galleryGridTitle,
                                     'gallery' => $gallery
                                 ];
-                            break;
-                            case 'carousel':
-                                $carouselPanels = [];
-                                foreach ($block->carouselItems->all() as $row){
-                                    $carouselPanels[] = [
-                                        'carouselImageUrl' => $row->carouselImageUrl,
-                                        'carouselTitle' => $row->carouselTitle,
-                                    ];
-                                }
-                                $bodyBlocks[] = [
-                                    'uid' => $block->uid,
-                                    'blockType' => 'carousel',
-                                    'carouselTitle' => $block->carouselTitle,
-                                    'carouselItems' => $carouselPanels,
-                                ];
-                            break;
-                            case 'video':
-                                $bodyBlocks[] = [
-                                    'uid' => $block->uid,
-                                    'blockType' => 'video',
-                                    'videoTitle' => $block->videoTitle,
-                                    'videoEmbedCode' => $block->videoEmbedCode,
-                                ];
-                            break;
-                            case 'expertise':
-                                $bodyBlocks[] = [
-                                    'uid' => $block->uid,
-                                    'blockType' => 'expertise',
-                                    // 'videoTitle' => $block->videoTitle,
-                                    // 'videoEmbedCode' => $block->videoEmbedCode,
-                                ];
-                            break;
+                            break;                        
                             case 'imageSlider':
                                 $SuperTableRows = [];
                                 foreach ($block->sliderStage->all() as $row){
@@ -119,6 +81,14 @@ return [
                                     'sliderStage' => $SuperTableRows,
                                 ];
                             break;
+                            case 'video':
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'video',
+                                    'videoTitle' => $block->videoTitle,
+                                    'videoEmbedCode' => $block->videoEmbedCode,
+                                ];
+                            break;
                            
                         }
                     }
@@ -127,9 +97,6 @@ return [
                         'title' => $entry->title,
                         'homeTitle' => $entry->homeTitle,
                         'homeSubTitle' => $entry->homeSubTitle,
-                        'homeSliderMatrix' => $homeSliderMatrix,
-                        'homeGalleryGrid' => $homeGalleryGrid,
-                        'homeSliderTitle' => $entry->homeSliderTitle,
                         'pageBlocks' => $bodyBlocks,
                         'jsonUrl' => UrlHelper::url("api/homepage.json")
                     ];
