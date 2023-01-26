@@ -1,5 +1,5 @@
 changedFieldIndicator: 1468565859
-field: 95419582-34ed-4c5e-bd17-c997a1e11481
+field: 95419582-34ed-4c5e-bd17-c997a1e11481 # Gallery Grid
 fieldLayouts:
   7e12ead1-30dc-4bb8-8884-a73c35bb1ea3:
     tabs:
@@ -8,7 +8,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 2057d12d-f024-42e6-a095-7cfb013f1573
+            fieldUid: 2057d12d-f024-42e6-a095-7cfb013f1573 # Source
             instructions: null
             label: null
             required: false
@@ -20,7 +20,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: a901688a-56c4-451c-9ce9-0119b625e906
+            fieldUid: a901688a-56c4-451c-9ce9-0119b625e906 # Original
             instructions: null
             label: null
             required: false
@@ -32,7 +32,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 3d3e84c7-10c2-412b-be32-bb2c69e7029e
+            fieldUid: 3d3e84c7-10c2-412b-be32-bb2c69e7029e # Width
             instructions: null
             label: null
             required: false
@@ -44,7 +44,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 7cc4ff04-eda1-416b-b056-3da3308cdad2
+            fieldUid: 7cc4ff04-eda1-416b-b056-3da3308cdad2 # Height
             instructions: null
             label: null
             required: false
@@ -56,7 +56,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: e29b52b2-6dae-444e-b61c-7a854e1fedad
+            fieldUid: e29b52b2-6dae-444e-b61c-7a854e1fedad # Caption
             instructions: null
             label: null
             required: false
@@ -70,7 +70,7 @@ fieldLayouts:
         uid: 970e89c1-60bc-45d8-8f62-f4bd48229615
         userCondition: null
 fields:
-  3d3e84c7-10c2-412b-be32-bb2c69e7029e:
+  3d3e84c7-10c2-412b-be32-bb2c69e7029e: # Width
     columnSuffix: tkuvdhbg
     contentColumnType: text
     fieldGroup: null
@@ -90,7 +90,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  7cc4ff04-eda1-416b-b056-3da3308cdad2:
+  7cc4ff04-eda1-416b-b056-3da3308cdad2: # Height
     columnSuffix: ngfguksr
     contentColumnType: text
     fieldGroup: null
@@ -110,7 +110,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  2057d12d-f024-42e6-a095-7cfb013f1573:
+  2057d12d-f024-42e6-a095-7cfb013f1573: # Source
     columnSuffix: auruhyep
     contentColumnType: text
     fieldGroup: null
@@ -130,7 +130,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  a901688a-56c4-451c-9ce9-0119b625e906:
+  a901688a-56c4-451c-9ce9-0119b625e906: # Original
     columnSuffix: wwasxtth
     contentColumnType: text
     fieldGroup: null
@@ -150,7 +150,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  e29b52b2-6dae-444e-b61c-7a854e1fedad:
+  e29b52b2-6dae-444e-b61c-7a854e1fedad: # Caption
     columnSuffix: kiggrayr
     contentColumnType: text
     fieldGroup: null

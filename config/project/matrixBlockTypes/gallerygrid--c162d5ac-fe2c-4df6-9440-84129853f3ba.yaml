@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 4a016f61-52e8-44b0-a0c8-a4fe21cac3a7
+            fieldUid: 4a016f61-52e8-44b0-a0c8-a4fe21cac3a7 # Gallery Grid Title
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 95419582-34ed-4c5e-bd17-c997a1e11481
+            fieldUid: 95419582-34ed-4c5e-bd17-c997a1e11481 # Gallery Grid
             instructions: null
             label: null
             required: false
@@ -33,7 +33,7 @@ fieldLayouts:
         uid: dcfb88a2-141f-41ea-8c2e-ae62d50d52b1
         userCondition: null
 fields:
-  4a016f61-52e8-44b0-a0c8-a4fe21cac3a7:
+  4a016f61-52e8-44b0-a0c8-a4fe21cac3a7: # Gallery Grid Title
     columnSuffix: qtkumshe
     contentColumnType: text
     fieldGroup: null
@@ -53,7 +53,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  95419582-34ed-4c5e-bd17-c997a1e11481:
+  95419582-34ed-4c5e-bd17-c997a1e11481: # Gallery Grid
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null

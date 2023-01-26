@@ -1,4 +1,4 @@
-dateModified: 1674765480
+dateModified: 1674774383
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -15,8 +15,8 @@ meta:
     2bdd38d6-d68c-4167-a873-41e048a41547: Homepage # Homepage
     2c41b583-96dc-4293-b353-1974c05b9d94: Eyebrow # Eyebrow
     3b79fdc0-5724-4d9b-a5e9-380151a05b21: 'Home Title' # Home Title
-    3d3e84c7-10c2-412b-be32-bb2c69e7029e: Width
-    4a016f61-52e8-44b0-a0c8-a4fe21cac3a7: 'Gallery Grid Title'
+    3d3e84c7-10c2-412b-be32-bb2c69e7029e: Width # Width
+    4a016f61-52e8-44b0-a0c8-a4fe21cac3a7: 'Gallery Grid Title' # Gallery Grid Title
     4a61e514-eb19-48ef-8983-a00a45fb4d95: 'Image Slider' # Image Slider
     4a745322-2056-4598-8d22-d45429b4da4f: 'Home Slider Matrix' # Home Slider Matrix
     04d54980-b674-4adf-8863-e247f35d1235: 'Related Articles' # Related Articles
@@ -25,7 +25,7 @@ meta:
     5d6ac0bf-c92a-4787-9ca6-d5a8cacd70cc: 'Video Embed Code' # Video Embed Code
     6c7fac60-aa53-4b8f-b0da-402708b6e3a4: Faqs # Faqs
     6e0a924d-f171-4f4e-903b-f96b326868c0: 'FAQ Heading' # FAQ Heading
-    7cc4ff04-eda1-416b-b056-3da3308cdad2: Height
+    7cc4ff04-eda1-416b-b056-3da3308cdad2: Height # Height
     07d11c48-f2c0-4cef-a62a-b6bdb6f97660: Home # Home
     7dd70b17-9357-4d42-9682-f30ace3ca653: 'Meta Description' # Meta Description
     7e55cefd-659d-4e10-b31d-4e0a68dad821: 'Article Excerpt' # Article Excerpt
@@ -59,7 +59,7 @@ meta:
     0800c23f-61f1-49e1-8997-a33cddbccfb4: 'Slider Title' # Slider Title
     862b9113-ff00-421d-85d6-c2f62bc447ce: Media # Media
     905d4050-b5de-439e-9220-47dc22e79c95: Blocks # Blocks
-    2057d12d-f024-42e6-a095-7cfb013f1573: Source
+    2057d12d-f024-42e6-a095-7cfb013f1573: Source # Source
     2354f6f5-f4ab-4802-96f1-784de89e3bfc: 'Text Background' # Text Background
     4755e416-e4d9-4b57-aded-7cc86d18864c: Faqs # Faqs
     6160dc14-be08-4c7d-99d6-5006bc20e5fd: 'Carousel Title' # Carousel Title
@@ -73,11 +73,11 @@ meta:
     615561c0-3497-403a-9570-c597264c195f: 'Studio Industry Exp Panels' # Studio Industry Exp Panels
     4064006c-4ff9-40e4-a7f8-ca86c624cb27: 'Sub Heading' # Sub Heading
     9220423d-a02e-4fa9-a5c7-d2919ce72059: Articles # Articles
-    95419582-34ed-4c5e-bd17-c997a1e11481: 'Gallery Grid'
+    95419582-34ed-4c5e-bd17-c997a1e11481: 'Gallery Grid' # Gallery Grid
     99385565-aceb-43e6-8be5-09e9913c7123: blpcraft # blpcraft
     a2cc57c8-0443-46bf-a2d5-9ae3b848a7e4: Hero # Hero
     a83c69d1-da9d-4df2-add8-f8261d91be86: Articles # Articles
-    a901688a-56c4-451c-9ce9-0119b625e906: Original
+    a901688a-56c4-451c-9ce9-0119b625e906: Original # Original
     a922132f-4676-4bc2-98c5-f375e05118d8: SubTitle # SubTitle
     ab8423ba-ed2f-4a50-9f8c-3e1f9f2bfc9f: Caption # Caption
     abed56c7-044e-4b22-af1d-dc0cc528b844: Contact # Contact
@@ -89,7 +89,7 @@ meta:
     be4c38af-39ff-4ef7-a24f-0d35a5ed51ad: Heading # Heading
     bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
-    c162d5ac-fe2c-4df6-9440-84129853f3ba: GalleryGrid
+    c162d5ac-fe2c-4df6-9440-84129853f3ba: GalleryGrid # GalleryGrid
     c3234a73-1779-47fe-a7f1-4e4aa92de313: 'FAQ Leadtext' # FAQ Leadtext
     c8871f41-1c86-44e6-9a60-081437c515db: Events # Events
     ca982994-80f8-4a96-a3df-96f3cb0f33cb: Studio # Studio
@@ -107,7 +107,7 @@ meta:
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
     e3ddf36b-3912-4e74-a971-76d6c49bb34f: blpcraft # blpcraft
     e5a0ddc5-36dc-4e5b-ae8d-eff03236bd81: 'Video Title' # Video Title
-    e29b52b2-6dae-444e-b61c-7a854e1fedad: Caption
+    e29b52b2-6dae-444e-b61c-7a854e1fedad: Caption # Caption
     e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
     e76bfbf8-5ce2-4ea6-b3ba-6ad3dc91199c: Faqs # Faqs
     eae74f7e-1f4e-4b92-9d87-dd57cb4d8c38: 'Web Dev' # Web Dev

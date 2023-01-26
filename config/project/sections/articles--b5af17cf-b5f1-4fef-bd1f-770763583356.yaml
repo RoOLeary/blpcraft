@@ -32,4 +32,7 @@ siteSettings:
     hasUrls: true
     template: articles/_entry
     uriFormat: 'articles/{slug}'
-type: channel
+structure:
+  maxLevels: null
+  uid: 1ba362d9-9d03-4065-b49a-f66282e0afe0
+type: structure
