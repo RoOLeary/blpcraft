@@ -33,7 +33,55 @@ return [
                         ];
                     };
 
-
+                    $bodyBlocks = [];
+                    foreach ($entry->pageBlocks->all() as $block) {
+                        switch ($block->type->handle) {
+                            case 'faqs':
+                                $faqRows = [];
+                                foreach($block->faqs->all() as $row){
+                                    $faqRows[] = [
+                                        'question' => $row->question,
+                                        'answer' => $row->answer,
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'faq',
+                                    'faqHeading' => $block->faqHeading,
+                                    'faqLeadtext' => $block->faqLeadtext,
+                                    'faqs' => $faqRows
+                                ];
+                            break;
+                           
+                            case 'video':
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'video',
+                                    'videoTitle' => $block->videoTitle,
+                                    'videoEmbedCode' => $block->videoEmbedCode,
+                                ];
+                            break;
+                            case 'imageSlider':
+                                $SuperTableRows = [];
+                                foreach ($block->sliderStage->all() as $row){
+                                    $SuperTableRows[] = [
+                                        'textSub' => $row->textSub,
+                                        'textHeading' => $row->textHeading,
+                                        'textBackground' => $row->textBackground,
+                                        'slideImage' => $row->slideImage,
+                                        'slideColor' => $row->slideColor->value,
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'imageSlider',
+                                    'sliderTitle' => $block->sliderTitle,
+                                    'sliderStage' => $SuperTableRows,
+                                ];
+                            break;
+                           
+                        }
+                    }
 
                     return [
                         'title' => $entry->title,
@@ -42,11 +90,13 @@ return [
                         'homeSliderMatrix' => $homeSliderMatrix,
                         'homeGalleryGrid' => $homeGalleryGrid,
                         'homeSliderTitle' => $entry->homeSliderTitle,
+                        'pageBlocks' => $bodyBlocks,
                         'jsonUrl' => UrlHelper::url("api/homepage.json")
                     ];
                 },
             ];
         },
+
         'api/contact.json' => function() {
             return [
                 'elementType' => Entry::class,

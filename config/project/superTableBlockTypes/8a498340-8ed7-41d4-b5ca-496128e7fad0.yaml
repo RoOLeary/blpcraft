@@ -1,0 +1,220 @@
+changedFieldIndicator: 789910436
+field: 6851cca2-7fe4-4c10-86ef-7e29b349889a # Slider Stage
+fieldLayouts:
+  4d201ad2-895b-4488-99d4-5f9d33be779f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 28bdcc08-449a-4a6a-bd4f-01ac2a95fb7e # Text Sub
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4e945fa3-2ca0-45d1-9cdb-474fb721273a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 757e0504-a513-4030-b764-0c463a175b67 # Text Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9735c7f6-a78a-43e7-8c93-4ed96ce7a6b3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2354f6f5-f4ab-4802-96f1-784de89e3bfc # Text Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5cefe8ec-f20e-471a-bc86-18fafeebf8e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 61a7a5ad-a56a-4dcc-83ec-a291e5ef9360 # Slide Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 708f2641-eeae-4747-98bb-5f260592b23d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 130a5ec2-3d40-4467-a779-d8f0d5bdb283 # Slider Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5cf61696-b4fb-4f1e-b386-131401ad14aa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d8faedc3-8de0-4d7c-90c9-e66ba74cea1f
+        userCondition: null
+fields:
+  28bdcc08-449a-4a6a-bd4f-01ac2a95fb7e: # Text Sub
+    columnSuffix: rliryxjl
+    contentColumnType: text
+    fieldGroup: null
+    handle: textSub
+    instructions: null
+    name: 'Text Sub'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  61a7a5ad-a56a-4dcc-83ec-a291e5ef9360: # Slide Image
+    columnSuffix: yxttawdc
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideImage
+    instructions: null
+    name: 'Slide Image'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  130a5ec2-3d40-4467-a779-d8f0d5bdb283: # Slider Color
+    columnSuffix: dwxelpmt
+    contentColumnType: string
+    fieldGroup: null
+    handle: slideColor
+    instructions: null
+    name: 'Slide Color'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Blue
+            -
+              - value
+              - blue
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Yellow
+            -
+              - value
+              - yellow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Gray
+            -
+              - value
+              - gray
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Dark Gray'
+            -
+              - value
+              - dark-gray
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  757e0504-a513-4030-b764-0c463a175b67: # Text Heading
+    columnSuffix: hxwmsvnk
+    contentColumnType: text
+    fieldGroup: null
+    handle: textHeading
+    instructions: null
+    name: 'Text Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  2354f6f5-f4ab-4802-96f1-784de89e3bfc: # Text Background
+    columnSuffix: bicklfwp
+    contentColumnType: text
+    fieldGroup: null
+    handle: textBackground
+    instructions: null
+    name: 'Text Background'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

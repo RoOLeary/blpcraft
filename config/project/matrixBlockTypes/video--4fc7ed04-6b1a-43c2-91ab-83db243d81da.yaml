@@ -1,0 +1,78 @@
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
+fieldLayouts:
+  76c1154b-ad8d-49c1-be9f-b5bbf167d8f3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e5a0ddc5-36dc-4e5b-ae8d-eff03236bd81 # Video Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9c34faa-2583-4bd9-b416-3895fb07533f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5d6ac0bf-c92a-4787-9ca6-d5a8cacd70cc # Video Embed Code
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a43f842-802d-4359-bab3-229b415291cf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0ea863e4-d342-43c2-9a06-2f26504ab5c6
+        userCondition: null
+fields:
+  5d6ac0bf-c92a-4787-9ca6-d5a8cacd70cc: # Video Embed Code
+    columnSuffix: zbzuvcjz
+    contentColumnType: text
+    fieldGroup: null
+    handle: videoEmbedCode
+    instructions: null
+    name: 'Video Embed Code'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e5a0ddc5-36dc-4e5b-ae8d-eff03236bd81: # Video Title
+    columnSuffix: ymealmqo
+    contentColumnType: text
+    fieldGroup: null
+    handle: videoTitle
+    instructions: null
+    name: 'Video Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: video
+name: Video
+sortOrder: 4

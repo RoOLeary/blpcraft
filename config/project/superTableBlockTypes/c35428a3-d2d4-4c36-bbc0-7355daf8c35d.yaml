@@ -1,0 +1,76 @@
+changedFieldIndicator: 411413328
+field: e76bfbf8-5ce2-4ea6-b3ba-6ad3dc91199c # Faqs
+fieldLayouts:
+  06fb6be3-cab6-4fa2-b9de-bca81c3db74b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9c320cd0-6815-4784-ae98-e8a99d58d717 # Question
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c96494a8-6dad-4da4-85f2-4073703cd04b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 36bdbce2-2825-426e-aba0-14055990c589 # Answer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c7bb67d-4d3a-49e3-a67f-f8df76acc176
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a3cbb8a8-1a0f-4137-8007-4f6d0fc65f12
+        userCondition: null
+fields:
+  9c320cd0-6815-4784-ae98-e8a99d58d717: # Question
+    columnSuffix: dmcbtchj
+    contentColumnType: text
+    fieldGroup: null
+    handle: question
+    instructions: null
+    name: Question
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  36bdbce2-2825-426e-aba0-14055990c589: # Answer
+    columnSuffix: sdgldlbj
+    contentColumnType: text
+    fieldGroup: null
+    handle: answer
+    instructions: null
+    name: Answer
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

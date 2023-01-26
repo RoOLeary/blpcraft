@@ -1,0 +1,108 @@
+changedFieldIndicator: 1528092384
+field: 45995bd6-85a4-4c32-8050-42591cc48333 # Carousel Items
+fieldLayouts:
+  76377393-66a5-4a02-8fbe-618ab71be290:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5c1e984f-5666-4392-bf01-2e7ad91d1108 # Carousel Image Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6bf8615a-a702-40c8-bdfa-cc5c802fe23c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb81bcdd-13cc-4b43-b74b-0c267bd7add4 # Carousel Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1c6dc05-ee7a-468c-aee7-c5720f9dd5d8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cda937cb-a1c6-48ac-93f3-7bf94fb5a59a # Job
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 82be33df-0011-47e8-8000-fd1aaee117ff
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 979e713d-6f82-486c-a3c8-00b346ab4c0a
+        userCondition: null
+fields:
+  5c1e984f-5666-4392-bf01-2e7ad91d1108: # Carousel Image Url
+    columnSuffix: yxmhungb
+    contentColumnType: text
+    fieldGroup: null
+    handle: carouselImageUrl
+    instructions: null
+    name: 'Carousel Image Url'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cb81bcdd-13cc-4b43-b74b-0c267bd7add4: # Carousel Title
+    columnSuffix: yonexjws
+    contentColumnType: text
+    fieldGroup: null
+    handle: carouselTitle
+    instructions: null
+    name: 'Carousel Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cda937cb-a1c6-48ac-93f3-7bf94fb5a59a: # Job
+    columnSuffix: xfvoojcs
+    contentColumnType: text
+    fieldGroup: null
+    handle: job
+    instructions: null
+    name: Job
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

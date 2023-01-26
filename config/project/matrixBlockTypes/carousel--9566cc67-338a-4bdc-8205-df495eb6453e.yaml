@@ -1,0 +1,103 @@
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
+fieldLayouts:
+  48299aa6-4226-4442-ad56-31ad4e22e631:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6160dc14-be08-4c7d-99d6-5006bc20e5fd # Carousel Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67ed8eea-5dcd-4e8b-952b-bfc4e032a019
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45995bd6-85a4-4c32-8050-42591cc48333 # Carousel Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2dc12d12-a725-4ee1-a959-037c9e986f1d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1761ea7c-2f35-4224-94e7-3598001e69cc
+        userCondition: null
+fields:
+  6160dc14-be08-4c7d-99d6-5006bc20e5fd: # Carousel Title
+    columnSuffix: phxfnnok
+    contentColumnType: text
+    fieldGroup: null
+    handle: carouselTitle
+    instructions: null
+    name: 'Carousel Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  45995bd6-85a4-4c32-8050-42591cc48333: # Carousel Items
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: carouselItems
+    instructions: null
+    name: 'Carousel Items'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 483686761
+      columns:
+        __assoc__:
+          -
+            - 5c1e984f-5666-4392-bf01-2e7ad91d1108 # Carousel Image Url
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - cb81bcdd-13cc-4b43-b74b-0c267bd7add4 # Carousel Title
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - cda937cb-a1c6-48ac-93f3-7bf94fb5a59a # Job
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_3_carouselitems}}'
+      fieldLayout: row
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: carousel
+name: Carousel
+sortOrder: 3

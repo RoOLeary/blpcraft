@@ -108,6 +108,24 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            fieldUid: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dd9c4fac-6d00-4b3f-89cf-5fef7a01e39c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Blocks
+        uid: 05278a2f-317d-4aa5-a188-5d6e23a50c11
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
             fieldUid: 152ed4dc-c4b0-4a18-af15-2537400eef62 # Meta Title
             instructions: null
             label: null

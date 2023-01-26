@@ -1,0 +1,110 @@
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
+fieldLayouts:
+  5cc0c364-fffb-438a-a6c1-1a4caf760271:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2c41b583-96dc-4293-b353-1974c05b9d94 # Eyebrow
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2dc810a2-1443-4373-88eb-ef3263098558
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: be4c38af-39ff-4ef7-a24f-0d35a5ed51ad # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0888cb84-e232-4153-bb4f-8f77d21e3353
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4064006c-4ff9-40e4-a7f8-ca86c624cb27 # Sub Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ff0f988-0e29-4dbf-ab48-1aac37958fb5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 10953049-b3ef-47e5-ba56-3c4da0d1907e
+        userCondition: null
+fields:
+  2c41b583-96dc-4293-b353-1974c05b9d94: # Eyebrow
+    columnSuffix: ltwoekaa
+    contentColumnType: text
+    fieldGroup: null
+    handle: eyebrow
+    instructions: null
+    name: Eyebrow
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4064006c-4ff9-40e4-a7f8-ca86c624cb27: # Sub Heading
+    columnSuffix: pxhhlntm
+    contentColumnType: text
+    fieldGroup: null
+    handle: subHeading
+    instructions: null
+    name: 'Sub Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  be4c38af-39ff-4ef7-a24f-0d35a5ed51ad: # Heading
+    columnSuffix: dbwxflpx
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: hero
+name: Hero
+sortOrder: 1

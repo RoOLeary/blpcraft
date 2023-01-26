@@ -1,0 +1,128 @@
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
+fieldLayouts:
+  572480ec-3b6e-4bf5-ad1b-a9d234859e63:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6e0a924d-f171-4f4e-903b-f96b326868c0 # FAQ Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20d4df65-9a33-4752-b561-96cfbca25bbe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 17cdf9f0-45ed-4bf4-b050-081038df85b0 # FAQ Leadtext
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd877cb0-7a30-42cb-abf7-d82a8f69b7ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e76bfbf8-5ce2-4ea6-b3ba-6ad3dc91199c # Faqs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f966f86-8fcf-4df7-a7bc-871c2a665d39
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2320eaab-bcf7-43c6-ac49-77a2c11dacfd
+        userCondition: null
+fields:
+  6e0a924d-f171-4f4e-903b-f96b326868c0: # FAQ Heading
+    columnSuffix: pjzdavjr
+    contentColumnType: text
+    fieldGroup: null
+    handle: faqHeading
+    instructions: null
+    name: 'FAQ Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  17cdf9f0-45ed-4bf4-b050-081038df85b0: # FAQ Leadtext
+    columnSuffix: wkszncqj
+    contentColumnType: text
+    fieldGroup: null
+    handle: faqLeadtext
+    instructions: null
+    name: 'FAQ Leadtext'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e76bfbf8-5ce2-4ea6-b3ba-6ad3dc91199c: # Faqs
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: faqs
+    instructions: null
+    name: Faqs
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1254826946
+      columns:
+        __assoc__:
+          -
+            - 9c320cd0-6815-4784-ae98-e8a99d58d717 # Question
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 36bdbce2-2825-426e-aba0-14055990c589 # Answer
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_7_faqs}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: verbb\supertable\fields\SuperTableField
+handle: faqs
+name: Faqs
+sortOrder: 6

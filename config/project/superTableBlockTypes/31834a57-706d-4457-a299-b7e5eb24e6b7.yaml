@@ -1,0 +1,76 @@
+changedFieldIndicator: 1462223554
+field: 456f088a-e20c-4334-971c-cea80068ce1f # Exp Areas
+fieldLayouts:
+  41c1189c-9721-4946-becc-23435adb214e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f1d4b491-d0ba-4a7d-9e5c-9a0264175e65 # Exp Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b914bca0-e4d3-4d9d-9001-6735cd3cd1df
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 21b7534d-7672-47ae-b26d-d5cb25cb3fdb # Exp Blurb
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 915bca23-9c3e-4583-bb71-92a961acd24c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 84cf2849-724b-4efa-acac-e9ad46321bba
+        userCondition: null
+fields:
+  21b7534d-7672-47ae-b26d-d5cb25cb3fdb: # Exp Blurb
+    columnSuffix: xihhdcic
+    contentColumnType: text
+    fieldGroup: null
+    handle: expBlurb
+    instructions: null
+    name: 'Exp Blurb'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f1d4b491-d0ba-4a7d-9e5c-9a0264175e65: # Exp Title
+    columnSuffix: uqltpiza
+    contentColumnType: text
+    fieldGroup: null
+    handle: expTitle
+    instructions: null
+    name: 'Exp Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
