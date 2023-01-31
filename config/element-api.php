@@ -84,7 +84,7 @@ return [
                             case 'quote':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,
-                                    'blockType' => 'textBlock',
+                                    'blockType' => 'quote',
                                     'quoteBackgroundColor' => $block->quoteBackgroundColor,
                                     'quoteTitle' => $block->quoteTitle,
                                     'quoteImageUrl' => $block->quoteImageUrl,
