@@ -87,7 +87,7 @@ return [
                                     'blockType' => 'textBlock',
                                     'textTitle' => $block->textTitle,
                                     'textBoldTitle' => $block->textBoldTitle,
-                                    'textContent' => $block->textContent
+                                    'textContent' => $block->textContent,
                                 ];
                             break;
                             case 'video':
