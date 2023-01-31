@@ -86,6 +86,7 @@ return [
                                     'uid' => $block->uid,
                                     'blockType' => 'textBlock',
                                     'textTitle' => $block->textTitle,
+                                    'textBoldTitle' => $block->textBoldTitle,
                                     'textContent' => $block->textContent,
                                     'displayBorderImage' => $block->displayBorderImage,
                                     'selectBorderDisplay' => $block->selectBorderDisplay
