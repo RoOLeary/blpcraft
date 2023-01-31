@@ -63,8 +63,45 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 575750768
-      contentTable: '{{%stc_gallerygrid}}'
+      changedFieldIndicator: 1121460352
+      columns:
+        __assoc__:
+          -
+            - 2057d12d-f024-42e6-a095-7cfb013f1573 # Source
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - a901688a-56c4-451c-9ce9-0119b625e906 # Original
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 3d3e84c7-10c2-412b-be32-bb2c69e7029e # Width
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 7cc4ff04-eda1-416b-b056-3da3308cdad2 # Height
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - e29b52b2-6dae-444e-b61c-7a854e1fedad # Caption
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_8_gallerygrid}}'
       fieldLayout: matrix
       maxRows: null
       minRows: null

@@ -1,4 +1,4 @@
-dateModified: 1674774969
+dateModified: 1675126192
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -16,6 +16,7 @@ meta:
     2c41b583-96dc-4293-b353-1974c05b9d94: Eyebrow # Eyebrow
     3b79fdc0-5724-4d9b-a5e9-380151a05b21: 'Home Title' # Home Title
     3d3e84c7-10c2-412b-be32-bb2c69e7029e: Width # Width
+    3dddb480-1c0c-4edb-8279-89763aac765c: 'Text Title' # Text Title
     4a016f61-52e8-44b0-a0c8-a4fe21cac3a7: 'Gallery Grid Title' # Gallery Grid Title
     4a61e514-eb19-48ef-8983-a00a45fb4d95: 'Image Slider' # Image Slider
     4a745322-2056-4598-8d22-d45429b4da4f: 'Home Slider Matrix' # Home Slider Matrix
@@ -42,9 +43,11 @@ meta:
     36bdbce2-2825-426e-aba0-14055990c589: Answer # Answer
     41aff8b9-a23e-4bf1-aa6c-e890d3e02ae2: Tech # Tech
     42e21bcb-7d09-47a0-a09f-73630de0223e: Pages # Pages
+    45ded856-e37a-43b6-8613-f4b00742bcbf: 'Text Emphasised Title' # Text Emphasised Title
     61a7a5ad-a56a-4dcc-83ec-a291e5ef9360: 'Slide Image' # Slide Image
     66e654c6-de20-49fb-928c-0e804ee78725: 'Article Content' # Article Content
     67c82c49-0b67-430e-9fcf-d86ec6a52116: 'Studio CTA' # Studio CTA
+    67dfc232-2dd7-44bb-900b-28df01e555df: 'Text Content' # Text Content
     74f26786-16a0-4ac7-9d32-5ced0150b2ee: Studio # Studio
     82a05a0b-aa09-4d1a-b32b-183c733990fd: 'Article Title' # Article Title
     94c8ebe0-28eb-44a4-99f6-ddfe73bb6e27: Question # Question
@@ -65,6 +68,7 @@ meta:
     4755e416-e4d9-4b57-aded-7cc86d18864c: Faqs # Faqs
     6160dc14-be08-4c7d-99d6-5006bc20e5fd: 'Carousel Title' # Carousel Title
     6851cca2-7fe4-4c10-86ef-7e29b349889a: 'Slider Stage' # Slider Stage
+    8185c4c8-1256-48d7-89b8-62f7b76b3868: 'Display Border Image' # Display Border Image
     9566cc67-338a-4bdc-8205-df495eb6453e: Carousel # Carousel
     9582ff3f-3e0e-43b4-881b-74219a1782d1: 'Meta Image' # Meta Image
     17596c11-92b2-407a-8edf-983b832f50c9: Meta # Meta
@@ -87,12 +91,14 @@ meta:
     b2e26985-c159-434d-b9e4-6c346c2c5cde: 'Contact Map Embed' # Contact Map Embed
     b5af17cf-b5f1-4fef-bd1f-770763583356: Articles # Articles
     b51d2e69-9761-4dd2-8518-83aad61fe142: 'Studio Industry Exp Title' # Studio Industry Exp Title
+    bcd825b7-ef4d-4809-9fac-31054386d665: 'Select Border Display' # Select Border Display
     be4c38af-39ff-4ef7-a24f-0d35a5ed51ad: Heading # Heading
     bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
     c162d5ac-fe2c-4df6-9440-84129853f3ba: GalleryGrid # GalleryGrid
     c3234a73-1779-47fe-a7f1-4e4aa92de313: 'FAQ Leadtext' # FAQ Leadtext
     c8871f41-1c86-44e6-9a60-081437c515db: Events # Events
+    c9143182-9311-4ac3-bcd7-5e51772f2790: 'Text Block' # Text Block
     ca982994-80f8-4a96-a3df-96f3cb0f33cb: Studio # Studio
     cb0ab3c4-98ff-45ba-9b00-d23ee84a1d8b: 'Contact FAQs' # Contact FAQs
     cb81bcdd-13cc-4b43-b74b-0c267bd7add4: 'Carousel Title' # Carousel Title
@@ -106,6 +112,7 @@ meta:
     dca16962-65ef-41a6-b679-90fcb1847a74: Pages # Pages
     dcefe02c-84a8-42bc-aee9-221f9935c656: 'Article Type' # Article Type
     dd43e7fb-8a8d-4e4a-80dd-55343718f638: 'Article Image Alt' # Article Image Alt
+    dde2c168-95d6-497e-ac05-6e84f4ceb296: 'Text Bold Title'
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
     e3ddf36b-3912-4e74-a971-76d6c49bb34f: blpcraft # blpcraft
     e5a0ddc5-36dc-4e5b-ae8d-eff03236bd81: 'Video Title' # Video Title

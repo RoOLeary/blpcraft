@@ -1,82 +1,81 @@
-changedFieldIndicator: 714123153
-field: 6851cca2-7fe4-4c10-86ef-7e29b349889a # Slider Stage
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
 fieldLayouts:
-  4d201ad2-895b-4488-99d4-5f9d33be779f:
+  24a0cd55-35aa-493d-bdc7-c95e95482ee2:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 28bdcc08-449a-4a6a-bd4f-01ac2a95fb7e # Text Sub
+            fieldUid: 3dddb480-1c0c-4edb-8279-89763aac765c # Text Title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4e945fa3-2ca0-45d1-9cdb-474fb721273a
+            uid: 54ef2d9d-f63f-4666-86ff-4671464f2446
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: dde2c168-95d6-497e-ac05-6e84f4ceb296
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 57c2ef51-4990-4ee2-9dfb-54893952a52e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 67dfc232-2dd7-44bb-900b-28df01e555df # Text Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e8c5fdd-9093-4fbb-aae4-c3fa32e7b03f
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 757e0504-a513-4030-b764-0c463a175b67 # Text Heading
+            fieldUid: 8185c4c8-1256-48d7-89b8-62f7b76b3868 # Display Border Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9735c7f6-a78a-43e7-8c93-4ed96ce7a6b3
+            uid: cf49d811-d512-4796-aa05-759ec1e27312
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 2354f6f5-f4ab-4802-96f1-784de89e3bfc # Text Background
+            fieldUid: bcd825b7-ef4d-4809-9fac-31054386d665 # Select Border Display
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5cefe8ec-f20e-471a-bc86-18fafeebf8e6
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 61a7a5ad-a56a-4dcc-83ec-a291e5ef9360 # Slide Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 708f2641-eeae-4747-98bb-5f260592b23d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 130a5ec2-3d40-4467-a779-d8f0d5bdb283 # Slide Color
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 5cf61696-b4fb-4f1e-b386-131401ad14aa
+            uid: 4f975deb-800e-451a-96a4-416ad750dda6
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: d8faedc3-8de0-4d7c-90c9-e66ba74cea1f
+        uid: 7dbcc446-f734-469c-9c85-6b0f2b94d4b7
         userCondition: null
 fields:
-  28bdcc08-449a-4a6a-bd4f-01ac2a95fb7e: # Text Sub
-    columnSuffix: rliryxjl
+  3dddb480-1c0c-4edb-8279-89763aac765c: # Text Title
+    columnSuffix: kpelgpvb
     contentColumnType: text
     fieldGroup: null
-    handle: textSub
+    handle: textTitle
     instructions: null
-    name: 'Text Sub'
+    name: 'Text Title'
     searchable: false
     settings:
       byteLimit: null
@@ -90,33 +89,56 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  61a7a5ad-a56a-4dcc-83ec-a291e5ef9360: # Slide Image
-    columnSuffix: yxttawdc
+  67dfc232-2dd7-44bb-900b-28df01e555df: # Text Content
+    columnSuffix: jaemslbd
     contentColumnType: text
     fieldGroup: null
-    handle: slideImage
+    handle: textContent
     instructions: null
-    name: 'Slide Image'
+    name: 'Text Content'
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
-  130a5ec2-3d40-4467-a779-d8f0d5bdb283: # Slide Color
-    columnSuffix: dwxelpmt
+    type: craft\redactor\Field
+  8185c4c8-1256-48d7-89b8-62f7b76b3868: # Display Border Image
+    columnSuffix: ulumlghk
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: displayBorderImage
+    instructions: null
+    name: 'Display Border Image'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Hide
+      onLabel: Show
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  bcd825b7-ef4d-4809-9fac-31054386d665: # Select Border Display
+    columnSuffix: kkesixnw
     contentColumnType: string
     fieldGroup: null
-    handle: slideColor
+    handle: selectBorderDisplay
     instructions: null
-    name: 'Slide Color'
+    name: 'Select Border Display'
     searchable: false
     settings:
       options:
@@ -124,10 +146,10 @@ fields:
           __assoc__:
             -
               - label
-              - Blue
+              - Left
             -
               - value
-              - blue
+              - left
             -
               - default
               - ''
@@ -135,10 +157,10 @@ fields:
           __assoc__:
             -
               - label
-              - Red
+              - Right
             -
               - value
-              - red
+              - right
             -
               - default
               - ''
@@ -146,45 +168,23 @@ fields:
           __assoc__:
             -
               - label
-              - Yellow
+              - Both
             -
               - value
-              - yellow
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Gray
-            -
-              - value
-              - gray
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Dark Gray'
-            -
-              - value
-              - dark-gray
+              - both
             -
               - default
               - ''
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  757e0504-a513-4030-b764-0c463a175b67: # Text Heading
-    columnSuffix: hxwmsvnk
+  dde2c168-95d6-497e-ac05-6e84f4ceb296:
+    columnSuffix: nnukoivd
     contentColumnType: text
     fieldGroup: null
-    handle: textHeading
+    handle: textBoldTitle
     instructions: null
-    name: 'Text Heading'
+    name: 'Text Bold Title'
     searchable: false
     settings:
       byteLimit: null
@@ -198,23 +198,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  2354f6f5-f4ab-4802-96f1-784de89e3bfc: # Text Background
-    columnSuffix: bicklfwp
-    contentColumnType: text
-    fieldGroup: null
-    handle: textBackground
-    instructions: null
-    name: 'Text Background'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
+handle: textBlock
+name: 'Text Block'
+sortOrder: 8

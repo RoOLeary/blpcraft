@@ -81,6 +81,15 @@ return [
                                     'sliderStage' => $SuperTableRows,
                                 ];
                             break;
+                            case 'textBlock':
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'textBlock',
+                                    'textTitle' => $block->textTitle,
+                                    'textContent' => $block->textContent,
+                                    'displayBorderImage' => $block->displayBorderImage,
+                                    'selectBorderDisplay' => $block->selectBorderDisplay
+                                ];
                             case 'video':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,
