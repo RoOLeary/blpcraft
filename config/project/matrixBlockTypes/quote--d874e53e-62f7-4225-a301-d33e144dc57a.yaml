@@ -1,82 +1,81 @@
-changedFieldIndicator: 593439478
-field: 95419582-34ed-4c5e-bd17-c997a1e11481 # Gallery Grid
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
 fieldLayouts:
-  7e12ead1-30dc-4bb8-8884-a73c35bb1ea3:
+  273d3c8c-bb61-4d8f-b2f0-a9dba2f33d58:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 2057d12d-f024-42e6-a095-7cfb013f1573 # Source
+            fieldUid: 404b2348-f856-448a-b169-c0c5e2fa7952
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d96370a9-dc0e-4cd9-bbac-3159e6c0bc80
+            uid: 08573980-93ef-4ffc-a0a8-3489226eef12
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: a901688a-56c4-451c-9ce9-0119b625e906 # Original
+            fieldUid: 0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 03636d33-9934-464a-83be-73a0f6b6069d
+            uid: b9484db3-44c4-4294-9f8d-9010a92d8130
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 3d3e84c7-10c2-412b-be32-bb2c69e7029e # Width
+            fieldUid: 519d67e5-0dae-4f5d-9389-0dca3c56d3d4
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ffcc7654-2f01-444d-84ca-9132de12c006
+            uid: af556970-929f-4c6c-a0f9-444a7d4a7f6f
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 7cc4ff04-eda1-416b-b056-3da3308cdad2 # Height
+            fieldUid: 124ace79-506d-4549-b78b-844273b7e4c5
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: efd80375-3026-4a1a-8dd7-1cd1bda5b51a
+            uid: 060d2956-ae1b-4461-ab3c-da39e246a917
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: e29b52b2-6dae-444e-b61c-7a854e1fedad # Caption
+            fieldUid: 259416a8-03ac-40e4-ab88-42487e4a6dc1
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8c83079e-3587-415b-9d21-0d85328b3150
+            uid: 85f26c51-3112-42e0-88c4-2dac0a341993
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 970e89c1-60bc-45d8-8f62-f4bd48229615
+        uid: bd88cdba-e6b4-4555-9817-81812c4e0406
         userCondition: null
 fields:
-  3d3e84c7-10c2-412b-be32-bb2c69e7029e: # Width
-    columnSuffix: tkuvdhbg
+  0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e:
+    columnSuffix: gjcrvrjb
     contentColumnType: text
     fieldGroup: null
-    handle: width
+    handle: quoteTitle
     instructions: null
-    name: Width
+    name: 'Quote Title'
     searchable: false
     settings:
       byteLimit: null
@@ -90,13 +89,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  7cc4ff04-eda1-416b-b056-3da3308cdad2: # Height
-    columnSuffix: ngfguksr
+  124ace79-506d-4549-b78b-844273b7e4c5:
+    columnSuffix: hrfurani
     contentColumnType: text
     fieldGroup: null
-    handle: height
+    handle: quoter
     instructions: null
-    name: Height
+    name: Quoter
     searchable: false
     settings:
       byteLimit: null
@@ -110,13 +109,59 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  2057d12d-f024-42e6-a095-7cfb013f1573: # Source
-    columnSuffix: auruhyep
+  404b2348-f856-448a-b169-c0c5e2fa7952:
+    columnSuffix: qwqxumgj
+    contentColumnType: string
+    fieldGroup: null
+    handle: quoteBackgroundColor
+    instructions: null
+    name: 'Quote Background Color'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Red
+            -
+              - value
+              - red
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Blue
+            -
+              - value
+              - blue
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Indigo
+            -
+              - value
+              - indigo
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  519d67e5-0dae-4f5d-9389-0dca3c56d3d4:
+    columnSuffix: daqzizza
     contentColumnType: text
     fieldGroup: null
-    handle: src
+    handle: quoteImageUrl
     instructions: null
-    name: Source
+    name: 'Quote Image Url'
     searchable: false
     settings:
       byteLimit: null
@@ -130,13 +175,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  a901688a-56c4-451c-9ce9-0119b625e906: # Original
-    columnSuffix: wwasxtth
+  259416a8-03ac-40e4-ab88-42487e4a6dc1:
+    columnSuffix: okspryun
     contentColumnType: text
     fieldGroup: null
-    handle: original
+    handle: company
     instructions: null
-    name: Original
+    name: Company
     searchable: false
     settings:
       byteLimit: null
@@ -150,23 +195,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  e29b52b2-6dae-444e-b61c-7a854e1fedad: # Caption
-    columnSuffix: kiggrayr
-    contentColumnType: text
-    fieldGroup: null
-    handle: caption
-    instructions: null
-    name: Caption
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
+handle: quote
+name: Quote
+sortOrder: 9

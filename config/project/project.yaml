@@ -1,4 +1,4 @@
-dateModified: 1675126192
+dateModified: 1675194433
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -6,6 +6,7 @@ email:
 meta:
   __names__:
     0a0c46fa-0854-4aa0-8861-c8d21ddea837: 'Exp Intro Text' # Exp Intro Text
+    0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e: 'Quote Title'
     0e446a42-ea62-4b02-b300-253771e4a5f4: Contact # Contact
     0fdc14d0-dcd3-44c4-a3fd-8886740dceb1: 'Public Schema' # Public Schema
     1cbdb7f4-470b-4fe3-8755-2c7cd9052403: 'Slide Image' # Slide Image
@@ -51,13 +52,16 @@ meta:
     74f26786-16a0-4ac7-9d32-5ced0150b2ee: Studio # Studio
     82a05a0b-aa09-4d1a-b32b-183c733990fd: 'Article Title' # Article Title
     94c8ebe0-28eb-44a4-99f6-ddfe73bb6e27: Question # Question
+    124ace79-506d-4549-b78b-844273b7e4c5: Quoter
     130a5ec2-3d40-4467-a779-d8f0d5bdb283: 'Slide Color' # Slide Color
     130bdacc-b8f3-4805-b9a3-0f853bcaf3a9: Src # Src
     152ed4dc-c4b0-4a18-af15-2537400eef62: 'Meta Title' # Meta Title
     378fe6e9-2e49-4fa3-b100-bee4a5e9c3f3: 'Studio Intro' # Studio Intro
     388b7453-eae7-485f-bb76-2e249d9bebcc: 'Industry Body' # Industry Body
+    404b2348-f856-448a-b169-c0c5e2fa7952: 'Quote Background Color'
     456f088a-e20c-4334-971c-cea80068ce1f: 'Exp Areas' # Exp Areas
     458df070-681a-4f31-a897-a60b7133f40e: 'Studio Industry Exp Intro' # Studio Industry Exp Intro
+    519d67e5-0dae-4f5d-9389-0dca3c56d3d4: 'Quote Image Url'
     739c9415-34b4-4f84-bfd1-05b525bcc721: 'Home Slider Title' # Home Slider Title
     757e0504-a513-4030-b764-0c463a175b67: 'Text Heading' # Text Heading
     0800c23f-61f1-49e1-8997-a33cddbccfb4: 'Slider Title' # Slider Title
@@ -75,6 +79,7 @@ meta:
     31526c47-31c5-4606-9ad4-516804fb1e2f: 'Studio Title' # Studio Title
     45995bd6-85a4-4c32-8050-42591cc48333: 'Carousel Items' # Carousel Items
     66423ff9-39a2-4ae0-ba45-f6460d7a2408: 'Slide Color' # Slide Color
+    259416a8-03ac-40e4-ab88-42487e4a6dc1: Company
     615561c0-3497-403a-9570-c597264c195f: 'Studio Industry Exp Panels' # Studio Industry Exp Panels
     4064006c-4ff9-40e4-a7f8-ca86c624cb27: 'Sub Heading' # Sub Heading
     9220423d-a02e-4fa9-a5c7-d2919ce72059: Articles # Articles
@@ -106,13 +111,14 @@ meta:
     cd72bf89-e613-4391-ac7e-580384af970e: Contact # Contact
     cda937cb-a1c6-48ac-93f3-7bf94fb5a59a: Job # Job
     d21b2885-da47-45e0-9465-6953401a8878: 'Contact Intro' # Contact Intro
+    d874e53e-62f7-4225-a301-d33e144dc57a: Quote
     d5111eb7-7238-465f-8c95-5e0faa1361d3: 'Text Heading' # Text Heading
     da4dc93a-b81c-4c51-9047-6b34e4473fb3: Expertise # Expertise
     da570282-670c-41b7-8a5a-22e2ae50ef19: Original # Original
     dca16962-65ef-41a6-b679-90fcb1847a74: Pages # Pages
     dcefe02c-84a8-42bc-aee9-221f9935c656: 'Article Type' # Article Type
     dd43e7fb-8a8d-4e4a-80dd-55343718f638: 'Article Image Alt' # Article Image Alt
-    dde2c168-95d6-497e-ac05-6e84f4ceb296: 'Text Bold Title'
+    dde2c168-95d6-497e-ac05-6e84f4ceb296: 'Text Bold Title' # Text Bold Title
     dff2967f-e66b-48bb-b2c7-1303aa109beb: Homepage # Homepage
     e3ddf36b-3912-4e74-a971-76d6c49bb34f: blpcraft # blpcraft
     e5a0ddc5-36dc-4e5b-ae8d-eff03236bd81: 'Video Title' # Video Title

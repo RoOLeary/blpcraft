@@ -81,6 +81,17 @@ return [
                                     'sliderStage' => $SuperTableRows,
                                 ];
                             break;
+                            case 'quote':
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'textBlock',
+                                    'quoteBackgroundColor' => $block->quoteBackgroundColor,
+                                    'quoteTitle' => $block->quoteTitle,
+                                    'quoteImageUrl' => $block->quoteImageUrl,
+                                    'quoter' => $block->quoter,
+                                    'company' => $block->company,
+                                ];
+                            break;
                             case 'textBlock':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "581376ef3efcd24ef210d53ab1277042",
+    "content-hash": "b5902f1aee12c9fde94aeeb1213b8780",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
@@ -5481,6 +5481,12 @@
                 "craftcms",
                 "yii2"
             ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/generator/issues?state=open",
+                "rss": "https://github.com/craftcms/generator/releases.atom",
+                "source": "https://github.com/craftcms/generator"
+            },
             "time": "2023-01-11T15:59:08+00:00"
         },
         {
@@ -5737,5 +5743,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
