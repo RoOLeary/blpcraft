@@ -203,6 +203,8 @@ return [
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
                         'articleExcerpt' => $entry->articleExcerpt,
+                        'articleImageUrl' => $entry->articleImageUrl,
+                        'articleImageAlt' => $entry->articleImageAlt,
                         'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     
