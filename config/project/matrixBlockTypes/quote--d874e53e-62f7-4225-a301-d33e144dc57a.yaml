@@ -7,7 +7,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 404b2348-f856-448a-b169-c0c5e2fa7952
+            fieldUid: 404b2348-f856-448a-b169-c0c5e2fa7952 # Quote Background Color
             instructions: null
             label: null
             required: false
@@ -19,7 +19,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e
+            fieldUid: 0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e # Quote Title
             instructions: null
             label: null
             required: false
@@ -31,7 +31,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 519d67e5-0dae-4f5d-9389-0dca3c56d3d4
+            fieldUid: 519d67e5-0dae-4f5d-9389-0dca3c56d3d4 # Quote Image Url
             instructions: null
             label: null
             required: false
@@ -43,7 +43,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 124ace79-506d-4549-b78b-844273b7e4c5
+            fieldUid: 124ace79-506d-4549-b78b-844273b7e4c5 # Quoter
             instructions: null
             label: null
             required: false
@@ -55,7 +55,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 259416a8-03ac-40e4-ab88-42487e4a6dc1
+            fieldUid: 259416a8-03ac-40e4-ab88-42487e4a6dc1 # Company
             instructions: null
             label: null
             required: false
@@ -69,7 +69,7 @@ fieldLayouts:
         uid: bd88cdba-e6b4-4555-9817-81812c4e0406
         userCondition: null
 fields:
-  0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e:
+  0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e: # Quote Title
     columnSuffix: gjcrvrjb
     contentColumnType: text
     fieldGroup: null
@@ -89,7 +89,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  124ace79-506d-4549-b78b-844273b7e4c5:
+  124ace79-506d-4549-b78b-844273b7e4c5: # Quoter
     columnSuffix: hrfurani
     contentColumnType: text
     fieldGroup: null
@@ -109,7 +109,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  404b2348-f856-448a-b169-c0c5e2fa7952:
+  404b2348-f856-448a-b169-c0c5e2fa7952: # Quote Background Color
     columnSuffix: qwqxumgj
     contentColumnType: string
     fieldGroup: null
@@ -155,7 +155,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-  519d67e5-0dae-4f5d-9389-0dca3c56d3d4:
+  519d67e5-0dae-4f5d-9389-0dca3c56d3d4: # Quote Image Url
     columnSuffix: daqzizza
     contentColumnType: text
     fieldGroup: null
@@ -175,7 +175,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  259416a8-03ac-40e4-ab88-42487e4a6dc1:
+  259416a8-03ac-40e4-ab88-42487e4a6dc1: # Company
     columnSuffix: okspryun
     contentColumnType: text
     fieldGroup: null
