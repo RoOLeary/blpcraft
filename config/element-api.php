@@ -203,7 +203,7 @@ return [
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
                         'articleExcerpt' => $entry->articleExcerpt,
-                        // 'catId' => $articleCategory,
+                        'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     
                     ];
