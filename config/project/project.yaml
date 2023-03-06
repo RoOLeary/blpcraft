@@ -1,4 +1,4 @@
-dateModified: 1675715556
+dateModified: 1678133801
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -8,6 +8,7 @@ meta:
     0a0c46fa-0854-4aa0-8861-c8d21ddea837: 'Exp Intro Text' # Exp Intro Text
     0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e: 'Quote Title' # Quote Title
     0e446a42-ea62-4b02-b300-253771e4a5f4: Contact # Contact
+    0fdbaff3-ef01-4226-a50a-fbd326463602: 'Case Studies Title' # Case Studies Title
     0fdc14d0-dcd3-44c4-a3fd-8886740dceb1: 'Public Schema' # Public Schema
     1cbdb7f4-470b-4fe3-8755-2c7cd9052403: 'Slide Image' # Slide Image
     01dccff3-01ad-4244-86f8-bc11b79456fd: 'Studio More About Text' # Studio More About Text
@@ -25,6 +26,7 @@ meta:
     4fc7ed04-6b1a-43c2-91ab-83db243d81da: Video # Video
     5c1e984f-5666-4392-bf01-2e7ad91d1108: 'Carousel Image Url' # Carousel Image Url
     5d6ac0bf-c92a-4787-9ca6-d5a8cacd70cc: 'Video Embed Code' # Video Embed Code
+    6adbf0f0-632f-479b-a9ea-4754938a2416: 'Case Study Content' # Case Study Content
     6c7fac60-aa53-4b8f-b0da-402708b6e3a4: Faqs # Faqs
     6e0a924d-f171-4f4e-903b-f96b326868c0: 'FAQ Heading' # FAQ Heading
     7cc4ff04-eda1-416b-b056-3da3308cdad2: Height # Height
@@ -100,6 +102,7 @@ meta:
     bcd825b7-ef4d-4809-9fac-31054386d665: 'Select Border Display' # Select Border Display
     be4c38af-39ff-4ef7-a24f-0d35a5ed51ad: Heading # Heading
     bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
+    c4d0b06e-d82f-4d8f-b673-72017457c6ad: 'Case Studides' # Case Studides
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
     c162d5ac-fe2c-4df6-9440-84129853f3ba: GalleryGrid # GalleryGrid
     c3234a73-1779-47fe-a7f1-4e4aa92de313: 'FAQ Leadtext' # FAQ Leadtext
@@ -112,6 +115,7 @@ meta:
     cd72bf89-e613-4391-ac7e-580384af970e: Contact # Contact
     cda937cb-a1c6-48ac-93f3-7bf94fb5a59a: Job # Job
     d21b2885-da47-45e0-9465-6953401a8878: 'Contact Intro' # Contact Intro
+    d62e3bf2-a4d7-42c2-bb8d-a151e7dc728a: 'Case Studies' # Case Studies
     d874e53e-62f7-4225-a301-d33e144dc57a: Quote # Quote
     d5111eb7-7238-465f-8c95-5e0faa1361d3: 'Text Heading' # Text Heading
     da4dc93a-b81c-4c51-9047-6b34e4473fb3: Expertise # Expertise
@@ -126,6 +130,7 @@ meta:
     e29b52b2-6dae-444e-b61c-7a854e1fedad: Caption # Caption
     e59c39e9-30ea-423b-9e6a-b43ffb2449dd: Common # Common
     e76bfbf8-5ce2-4ea6-b3ba-6ad3dc91199c: Faqs # Faqs
+    e78a06e8-3fd6-4827-abcc-6179d889dea3: 'Case Studies' # Case Studies
     eae74f7e-1f4e-4b92-9d87-dd57cb4d8c38: 'Web Dev' # Web Dev
     eb930921-bea1-4f99-9f3c-4142df4afdd2: Question # Question
     f1d4b491-d0ba-4a7d-9e5c-9a0264175e65: 'Exp Title' # Exp Title

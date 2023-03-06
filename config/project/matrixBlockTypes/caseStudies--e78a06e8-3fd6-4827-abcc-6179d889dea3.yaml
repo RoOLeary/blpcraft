@@ -1,0 +1,93 @@
+field: 905d4050-b5de-439e-9220-47dc22e79c95 # Blocks
+fieldLayouts:
+  0b58b92e-f422-4cd0-8762-ea918e87a66f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 0fdbaff3-ef01-4226-a50a-fbd326463602 # Case Studies Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e50eb6ca-b152-47a7-952a-928493609e74
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6adbf0f0-632f-479b-a9ea-4754938a2416 # Case Study Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fa82fd7a-640f-4015-a253-3d6120b0faef
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: caa8dca5-5af5-42b7-b263-ceffa4a10c45
+        userCondition: null
+fields:
+  0fdbaff3-ef01-4226-a50a-fbd326463602: # Case Studies Title
+    columnSuffix: hsjykhym
+    contentColumnType: text
+    fieldGroup: null
+    handle: caseStudiesTitle
+    instructions: null
+    name: 'Case Studies Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6adbf0f0-632f-479b-a9ea-4754938a2416: # Case Study Content
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: caseStudyContent
+    instructions: null
+    name: 'Case Study Content'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:d62e3bf2-a4d7-42c2-bb8d-a151e7dc728a' # Case Studies
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: caseStudies
+name: 'Case Studies'
+sortOrder: 10

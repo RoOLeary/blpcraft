@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: caseStudies
+name: 'Case Studies'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  99385565-aceb-43e6-8be5-09e9913c7123: # blpcraft
+    enabledByDefault: true
+    hasUrls: true
+    template: case-studies/_entry
+    uriFormat: 'case-studies/{slug}'
+structure:
+  maxLevels: null
+  uid: 8d381fb3-ca9c-4790-be5b-8ccc88265984
+type: structure

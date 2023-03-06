@@ -1,0 +1,91 @@
+fieldLayouts:
+  1698784e-3052-4083-955c-1b51dd0aa5fe:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 709a5d1a-3e85-4f19-bcd2-9093d45f697d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 82a05a0b-aa09-4d1a-b32b-183c733990fd # Article Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f17b1b7-659e-4d14-964b-32b4da96fadc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f289e817-0de6-4ee3-8e0b-cdabcbe4c4d9 # Article Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2039735b-64c5-44f5-8b66-4b52c272b3b1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ad5f656d-5a4b-46cd-b8c8-32dcce519bf3 # Article Featured Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 98ae9b57-3cf5-435b-b71c-687337418f30
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 66e654c6-de20-49fb-928c-0e804ee78725 # Article Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b396467b-1e8f-43d3-bc66-7167b63d7362
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4a5e4cfd-30fe-40f3-a255-21d9a77b0101
+        userCondition: null
+handle: caseStudies
+hasTitleField: true
+name: 'Case Studides'
+section: d62e3bf2-a4d7-42c2-bb8d-a151e7dc728a # Case Studies
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

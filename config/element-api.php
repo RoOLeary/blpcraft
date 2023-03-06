@@ -192,11 +192,7 @@ return [
                 'elementsPerPage' => 10,
                 'transformer' => function(Entry $entry) {
 
-                    // $articleCategory = $entry->category->one()->id;
-                    // $relatedArticles = Entry::find()
-                    //     ->section('articles')
-                    //     ->limit(10)
-                    //     ->all();
+                   
 
                     return [
                         'slug' => $entry->slug,
@@ -206,6 +202,7 @@ return [
                         'articleFeaturedImage' => $entry->articleFeaturedImage,
                         'articleImageUrl' => $entry->articleImageUrl,
                         'articleImageAlt' => $entry->articleImageAlt,
+                        // 'relatedArticles' => $relatedArticles,
                         'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     
@@ -220,6 +217,13 @@ return [
                 'one' => true,
                 'transformer' => function(Entry $entry) {
                     
+                    $relatedArticles = [];
+                    foreach ($entry->relatedArticles->all() as $article) {
+                        $relatedArticles[] = [
+                            'title' => $article->title
+                        ];
+                    }
+
                     return [
                         'slug' => $entry->slug,
                         'title' => $entry->title,
@@ -232,6 +236,7 @@ return [
                         'articleImageAlt' => $entry->articleImageAlt,
                         'articleVideoEmbed' => $entry->articleVideoEmbed,
                         'articleContent' => $entry->articleContent,
+                        'relatedArticles' => $relatedArticles,
                         'jsonUrl' => UrlHelper::url("/api/articles/{$entry->slug}.json"),
                     ];
                 },
