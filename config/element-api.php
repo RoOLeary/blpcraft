@@ -87,7 +87,7 @@ return [
                                     $SuperTableRows[] = [
                                         'testimonial' => $row->testimonial,
                                         'testimonialImage' => $row->testimonialImage,
-                                        'testimonial' => $row->testimonialClient
+                                        'testimonialClient' => $row->testimonialClient
                                     ];
                                 }
                                 $bodyBlocks[] = [
