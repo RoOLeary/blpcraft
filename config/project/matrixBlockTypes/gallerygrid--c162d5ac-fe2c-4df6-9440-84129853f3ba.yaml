@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1947211172
+      changedFieldIndicator: 442513818
       columns:
         __assoc__:
           -
@@ -101,7 +101,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_8_gallerygrid}}'
+      contentTable: '{{%stc_7_gallerygrid}}'
       fieldLayout: matrix
       maxRows: null
       minRows: null

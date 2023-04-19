@@ -75,7 +75,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1328209898
+      changedFieldIndicator: 1916955715
       columns:
         __assoc__:
           -
@@ -92,7 +92,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_5_expareas}}'
+      contentTable: '{{%stc_2_expareas}}'
       fieldLayout: row
       maxRows: 6
       minRows: null

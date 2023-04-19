@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1500512314
+      changedFieldIndicator: 847046689
       columns:
         __assoc__:
           -
@@ -87,7 +87,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_3_carouselitems}}'
+      contentTable: '{{%stc_1_carouselitems}}'
       fieldLayout: row
       maxRows: null
       minRows: null

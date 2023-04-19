@@ -63,7 +63,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 161113838
+      changedFieldIndicator: 1479117178
       columns:
         __assoc__:
           -
@@ -101,7 +101,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_2_sliderstage}}'
+      contentTable: '{{%stc_4_sliderstage}}'
       fieldLayout: matrix
       maxRows: null
       minRows: null

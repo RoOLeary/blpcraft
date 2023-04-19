@@ -63,7 +63,9 @@ fields:
     searchable: false
     settings:
       allowSelfRelations: false
+      branchLimit: null
       localizeRelations: false
+      maintainHierarchy: false
       maxRelations: null
       minRelations: null
       selectionCondition:
@@ -78,8 +80,7 @@ fields:
             - class
             - craft\elements\conditions\entries\EntryCondition
       selectionLabel: null
-      showSiteMenu: false
-      source: null
+      showSiteMenu: true
       sources:
         - 'section:d62e3bf2-a4d7-42c2-bb8d-a151e7dc728a' # Case Studies
       targetSiteId: null

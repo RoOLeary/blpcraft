@@ -81,6 +81,22 @@ return [
                                     'sliderStage' => $SuperTableRows,
                                 ];
                             break;
+                            case 'testimonialSlider':
+                                $SuperTableRows = [];
+                                foreach ($block->testimonialCards->all() as $row){
+                                    $SuperTableRows[] = [
+                                        'testimonial' => $row->testimonial,
+                                        'testimonialImage' => $row->testimonialImage,
+                                        'testimonial' => $row->testimonialClient
+                                    ];
+                                }
+                                $bodyBlocks[] = [
+                                    'uid' => $block->uid,
+                                    'blockType' => 'imageSlider',
+                                    'testimonialsId' => $block->testimonialsId,
+                                    'testimonialCards' => $SuperTableRows,
+                                ];
+                            break;
                             case 'quote':
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,

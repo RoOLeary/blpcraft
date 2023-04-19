@@ -1,4 +1,4 @@
-dateModified: 1680462529
+dateModified: 1681927148
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -37,6 +37,7 @@ meta:
     9c320cd0-6815-4784-ae98-e8a99d58d717: Question # Question
     9d39892b-57b3-48fb-90b5-4fcf230546c6: Answer # Answer
     9e120ef1-ea9c-4378-aed9-b1222f1b5f60: 'Contact Title' # Contact Title
+    9f5d3acc-3237-459f-98fe-a2eacbf3cc6c: 'Testimonials Id' # Testimonials Id
     010b6d22-3cfd-46cc-a465-9230f7ae692f: Answer # Answer
     14a89346-2314-4eeb-9ef0-25a60001b329: 'Article Video Embed' # Article Video Embed
     17cdf9f0-45ed-4bf4-b050-081038df85b0: 'FAQ Leadtext' # FAQ Leadtext
@@ -89,6 +90,7 @@ meta:
     99385565-aceb-43e6-8be5-09e9913c7123: blpcraft # blpcraft
     a2cc57c8-0443-46bf-a2d5-9ae3b848a7e4: Hero # Hero
     a83c69d1-da9d-4df2-add8-f8261d91be86: Articles # Articles
+    a85e84d8-b330-4f96-bf9b-72d64825770d: 'Testimonial Slider' # Testimonial Slider
     a901688a-56c4-451c-9ce9-0119b625e906: Original # Original
     a922132f-4676-4bc2-98c5-f375e05118d8: SubTitle # SubTitle
     ab8423ba-ed2f-4a50-9f8c-3e1f9f2bfc9f: Caption # Caption
@@ -97,6 +99,7 @@ meta:
     ad575b29-c9e7-42ca-b2fa-894a02318574: 'Studio More About' # Studio More About
     af64c547-1d65-4871-aa82-edd8612f827f: Height # Height
     b2e26985-c159-434d-b9e4-6c346c2c5cde: 'Contact Map Embed' # Contact Map Embed
+    b3deab5e-7cc5-4c5f-aadd-f89cf0981ff5: 'Testimonial Cards' # Testimonial Cards
     b5af17cf-b5f1-4fef-bd1f-770763583356: Articles # Articles
     b51d2e69-9761-4dd2-8518-83aad61fe142: 'Studio Industry Exp Title' # Studio Industry Exp Title
     bcd825b7-ef4d-4809-9fac-31054386d665: 'Select Border Display' # Select Border Display
@@ -104,9 +107,11 @@ meta:
     bfbacae8-4a0c-46a1-bd97-6bacaabf223d: 'Home Sub Title' # Home Sub Title
     c4d0b06e-d82f-4d8f-b673-72017457c6ad: 'Case Studides' # Case Studides
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
+    c92d57de-10e9-49c9-95fd-3ce5a9d78ecb: Testimonial # Testimonial
     c162d5ac-fe2c-4df6-9440-84129853f3ba: GalleryGrid # GalleryGrid
     c3234a73-1779-47fe-a7f1-4e4aa92de313: 'FAQ Leadtext' # FAQ Leadtext
     c8871f41-1c86-44e6-9a60-081437c515db: Events # Events
+    c5458553-2173-4d34-8c44-a2460fa0f755: 'Testimonial Image' # Testimonial Image
     c9143182-9311-4ac3-bcd7-5e51772f2790: 'Text Block' # Text Block
     ca982994-80f8-4a96-a3df-96f3cb0f33cb: Studio # Studio
     cb0ab3c4-98ff-45ba-9b00-d23ee84a1d8b: 'Contact FAQs' # Contact FAQs
@@ -138,6 +143,7 @@ meta:
     f4a4e19f-3c33-433b-9a94-08def95be97c: 'Studio Eyebrow Text' # Studio Eyebrow Text
     f19bb62b-d6f1-4dac-8afe-305989f7c178: 'Home Gallery Grid' # Home Gallery Grid
     f87d1354-0d5f-4927-b6db-bcc62492451c: 'Exp Title' # Exp Title
+    f99f15b0-c7dc-4388-bfc1-177955296c97: 'Testimonial Client' # Testimonial Client
     f289e817-0de6-4ee3-8e0b-cdabcbe4c4d9: 'Article Category' # Article Category
     fd4b2a3b-a501-4429-b0bd-005ad3856bae: 'FAQ Heading' # FAQ Heading
 plugins:

@@ -95,7 +95,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 2126300007
+      changedFieldIndicator: 439058010
       columns:
         __assoc__:
           -
@@ -112,7 +112,7 @@ fields:
                 -
                   - width
                   - ''
-      contentTable: '{{%stc_7_faqs}}'
+      contentTable: '{{%stc_3_faqs}}'
       fieldLayout: matrix
       maxRows: null
       minRows: null

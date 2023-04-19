@@ -1,58 +1,58 @@
-changedFieldIndicator: 821367898
-field: 45995bd6-85a4-4c32-8050-42591cc48333 # Carousel Items
+changedFieldIndicator: 406431973
+field: b3deab5e-7cc5-4c5f-aadd-f89cf0981ff5 # Testimonial Cards
 fieldLayouts:
-  76377393-66a5-4a02-8fbe-618ab71be290:
+  35aadded-c13b-43a5-9329-5979741b2c13:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 5c1e984f-5666-4392-bf01-2e7ad91d1108 # Carousel Image Url
+            fieldUid: c92d57de-10e9-49c9-95fd-3ce5a9d78ecb # Testimonial
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6bf8615a-a702-40c8-bdfa-cc5c802fe23c
+            uid: 4a6f1222-dd3d-4f07-a174-208ca9814b55
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: cb81bcdd-13cc-4b43-b74b-0c267bd7add4 # Carousel Title
+            fieldUid: c5458553-2173-4d34-8c44-a2460fa0f755 # Testimonial Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b1c6dc05-ee7a-468c-aee7-c5720f9dd5d8
+            uid: 8b391bc2-2213-4c53-8508-5164b7a0b9ec
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: cda937cb-a1c6-48ac-93f3-7bf94fb5a59a # Job
+            fieldUid: f99f15b0-c7dc-4388-bfc1-177955296c97 # Testimonial Client
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 82be33df-0011-47e8-8000-fd1aaee117ff
+            uid: 709bcc29-6bfb-4b7a-bca3-a1f7904c23e5
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 979e713d-6f82-486c-a3c8-00b346ab4c0a
+        uid: 8f689d0b-e5f9-4adf-b837-168192814485
         userCondition: null
 fields:
-  5c1e984f-5666-4392-bf01-2e7ad91d1108: # Carousel Image Url
-    columnSuffix: yxmhungb
+  c92d57de-10e9-49c9-95fd-3ce5a9d78ecb: # Testimonial
+    columnSuffix: tnwclgjg
     contentColumnType: text
     fieldGroup: null
-    handle: carouselImageUrl
+    handle: testimonial
     instructions: null
-    name: 'Carousel Image Url'
+    name: Testimonial
     searchable: false
     settings:
       byteLimit: null
@@ -66,13 +66,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  cb81bcdd-13cc-4b43-b74b-0c267bd7add4: # Carousel Title
-    columnSuffix: yonexjws
+  c5458553-2173-4d34-8c44-a2460fa0f755: # Testimonial Image
+    columnSuffix: ajlwvfzv
     contentColumnType: text
     fieldGroup: null
-    handle: carouselTitle
+    handle: testimonialImage
     instructions: null
-    name: 'Carousel Title'
+    name: 'Testimonial Image'
     searchable: false
     settings:
       byteLimit: null
@@ -86,13 +86,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  cda937cb-a1c6-48ac-93f3-7bf94fb5a59a: # Job
-    columnSuffix: xfvoojcs
+  f99f15b0-c7dc-4388-bfc1-177955296c97: # Testimonial Client
+    columnSuffix: fziqbidk
     contentColumnType: text
     fieldGroup: null
-    handle: job
+    handle: testimonialClient
     instructions: null
-    name: Job
+    name: 'Testimonial Client'
     searchable: false
     settings:
       byteLimit: null
