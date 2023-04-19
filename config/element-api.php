@@ -92,7 +92,7 @@ return [
                                 }
                                 $bodyBlocks[] = [
                                     'uid' => $block->uid,
-                                    'blockType' => 'imageSlider',
+                                    'blockType' => 'testimonialSlider',
                                     'testimonialsId' => $block->testimonialsId,
                                     'testimonialCards' => $SuperTableRows,
                                 ];
