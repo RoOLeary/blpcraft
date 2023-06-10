@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94b0186e60d43278651fdb62d44e6e9f",
+    "content-hash": "59cded4b3a4c615e846ceed8a610331f",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
@@ -6055,16 +6055,16 @@
         },
         {
             "name": "verbb/super-table",
-            "version": "3.0.8.1",
+            "version": "3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/verbb/super-table.git",
-                "reference": "07b18f85dd51a7db81c84869c74dc1b569cc9eb8"
+                "reference": "117b22a4b79294b24236cf0f61db0b7bdcac0d17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/verbb/super-table/zipball/07b18f85dd51a7db81c84869c74dc1b569cc9eb8",
-                "reference": "07b18f85dd51a7db81c84869c74dc1b569cc9eb8",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/117b22a4b79294b24236cf0f61db0b7bdcac0d17",
+                "reference": "117b22a4b79294b24236cf0f61db0b7bdcac0d17",
                 "shasum": ""
             },
             "require": {
@@ -6096,7 +6096,7 @@
                     "homepage": "https://verbb.io"
                 }
             ],
-            "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+            "description": "Super-charge your content builders and create nested Matrix fields.",
             "keywords": [
                 "Craft",
                 "cms",
@@ -6117,7 +6117,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-03-28T11:42:45+00:00"
+            "time": "2023-05-24T06:30:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

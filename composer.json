@@ -4,7 +4,7 @@
     "craftcms/element-api": "3.0.1.1",
     "craftcms/redactor": "3.0.4",
     "fortrabbit/craft-copy": "^2.2",
-    "verbb/super-table": "3.0.8.1",
+    "verbb/super-table": "^3.0.9",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
