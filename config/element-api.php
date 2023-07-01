@@ -208,13 +208,23 @@ return [
                 'elementsPerPage' => 10,
                 'transformer' => function(Entry $entry) {
 
-                   
+                    $categories = []; 
+                    $articleCats = $entry->articleCategory->all();
+                    foreach ($articleCats as $cat){
+                        $categories[] = [
+                            'title' => $cat->title,
+                            'slug' => $cat->slug,
+                        ];
+                    }
+
+                    $primaryCat = $entry->articleCategory->all(); 
 
                     return [
                         'slug' => $entry->slug,
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
                         'articleExcerpt' => $entry->articleExcerpt,
+                        'articleCategories' => $categories, 
                         'articleFeaturedImage' => $entry->articleFeaturedImage,
                         'articleImageUrl' => $entry->articleImageUrl,
                         'articleImageAlt' => $entry->articleImageAlt,
@@ -240,12 +250,22 @@ return [
                         ];
                     }
 
+                    $categories = []; 
+                    $articleCats = $entry->articleCategory->all();
+                    foreach ($articleCats as $cat){
+                        $categories[] = [
+                            'title' => $cat->title,
+                            'slug' => $cat->slug,
+                        ];
+                    }
+
                     return [
                         'slug' => $entry->slug,
                         'title' => $entry->title,
                         'articleTitle' => $entry->articleTitle,
                         'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                         'articleType' => $entry->articleType,
+                        'articleCategories' => $categories, 
                         'articleExcerpt' => $entry->articleExcerpt,
                         'articleFeaturedImage' => $entry->articleFeaturedImage,
                         'articleImageUrl' => $entry->articleImageUrl,

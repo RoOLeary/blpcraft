@@ -6,17 +6,15 @@ instructions: null
 name: 'Article Category'
 searchable: false
 settings:
-  allowLimit: false
-  allowMultipleSources: false
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
+  maintainHierarchy: true
   maxRelations: null
   minRelations: null
   selectionLabel: null
-  showSiteMenu: false
-  source: 'group:41aff8b9-a23e-4bf1-aa6c-e890d3e02ae2' # Tech
-  sources: '*'
+  showSiteMenu: true
+  source: 'group:862b9113-ff00-421d-85d6-c2f62bc447ce' # Media
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

@@ -1,4 +1,4 @@
-dateModified: 1681927148
+dateModified: 1688221707
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -45,7 +45,6 @@ meta:
     28bdcc08-449a-4a6a-bd4f-01ac2a95fb7e: 'Text Sub' # Text Sub
     28d1c4ec-145f-4b3d-80de-80258706e131: 'Industry Title' # Industry Title
     36bdbce2-2825-426e-aba0-14055990c589: Answer # Answer
-    41aff8b9-a23e-4bf1-aa6c-e890d3e02ae2: Tech # Tech
     42e21bcb-7d09-47a0-a09f-73630de0223e: Pages # Pages
     45ded856-e37a-43b6-8613-f4b00742bcbf: 'Text Emphasised Title' # Text Emphasised Title
     61a7a5ad-a56a-4dcc-83ec-a291e5ef9360: 'Slide Image' # Slide Image
@@ -76,6 +75,7 @@ meta:
     6160dc14-be08-4c7d-99d6-5006bc20e5fd: 'Carousel Title' # Carousel Title
     6851cca2-7fe4-4c10-86ef-7e29b349889a: 'Slider Stage' # Slider Stage
     8185c4c8-1256-48d7-89b8-62f7b76b3868: 'Display Border Image' # Display Border Image
+    9286d36d-b9fe-4da6-a816-9676b58e13bc: Category # Category
     9566cc67-338a-4bdc-8205-df495eb6453e: Carousel # Carousel
     9582ff3f-3e0e-43b4-881b-74219a1782d1: 'Meta Image' # Meta Image
     17596c11-92b2-407a-8edf-983b832f50c9: Meta # Meta
