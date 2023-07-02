@@ -2,6 +2,7 @@
   "require": {
     "craftcms/cms": "^4.3.5",
     "craftcms/element-api": "3.0.1.1",
+    "craftcms/feed-me": "^5.1",
     "craftcms/redactor": "3.0.4",
     "fortrabbit/craft-copy": "^2.2",
     "verbb/super-table": "^3.0.9",

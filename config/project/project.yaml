@@ -1,4 +1,4 @@
-dateModified: 1688221707
+dateModified: 1688290154
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -155,6 +155,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.0
   redactor:
     edition: standard
     enabled: true
