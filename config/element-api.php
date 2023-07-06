@@ -205,7 +205,7 @@ return [
             return [
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'articles'],
-                'elementsPerPage' => 10,
+                'elementsPerPage' => 20,
                 'transformer' => function(Entry $entry) {
 
                     $categories = []; 
