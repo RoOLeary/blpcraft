@@ -206,6 +206,7 @@ return [
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'articles'],
                 'elementsPerPage' => 20,
+                'cache' => 'PT1M', // one minute
                 'transformer' => function(Entry $entry) {
 
                     $categories = []; 
