@@ -286,6 +286,7 @@ return [
             return [
                 'elementType' => Category::class,
                 'criteria' => ['slug' => $slug],
+                'cache' => 'PT1M', // one minute
                 'transformer' => function(Category $category) {
                     
                     $entries = Entry::find()
