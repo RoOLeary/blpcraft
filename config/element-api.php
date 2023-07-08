@@ -288,7 +288,6 @@ return [
                 'criteria' => ['slug' => $slug],
                 'cache' => 'PT1M', // one minute
                 'transformer' => function(Category $category) {
-                    
                     $entries = Entry::find()
                         ->section('articles') // Replace with the handle of your section
                         ->relatedTo($category)
