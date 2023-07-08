@@ -291,6 +291,7 @@ return [
                     $entries = Entry::find()
                         ->section('articles') // Replace with the handle of your section
                         ->relatedTo($category)
+                        ->orderBy('postDate desc')
                         ->all();
 
                     $entryData = [];
