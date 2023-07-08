@@ -205,7 +205,7 @@ return [
             return [
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'articles'],
-                'elementsPerPage' => 20,
+                'elementsPerPage' => 50,
                 'cache' => 'PT1M', // one minute
                 'transformer' => function(Entry $entry) {
 
