@@ -305,6 +305,8 @@ return [
                             'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                             'articleExcerpt' => $entry->articleExcerpt,
                             'articleFeaturedImage' => $entry->articleFeaturedImage,
+                            'articleImageUrl' => $entry->articleImageUrl,
+                            'articleImageAlt' => $entry->articleImageAlt,
                             'url' => $entry->getUrl(),
                         ];
                     }
