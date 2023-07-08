@@ -203,9 +203,10 @@ return [
         'api/articles.json' => function() {
             \Craft::$app->response->headers->set('Access-Control-Allow-Origin', '*');
             return [
-                'serializer' => 'dataArray',
+                'serializer' => 'jsonFeed',
                 'elementType' => Entry::class,
-                'criteria' => ['section' => 'articles'],
+                'criteria' => ['section' => 'articles', 'orderBy' => 'postDate desc'],
+                'elementsPerPage' => 50,
                 'cache' => 'PT1M', // one minute
                 'transformer' => function(Entry $entry) {
 
