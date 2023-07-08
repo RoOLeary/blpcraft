@@ -1,6 +1,7 @@
 <?php
 
 use craft\elements\Entry;
+use craft\elements\Category;
 use craft\helpers\UrlHelper;
 
 return [
@@ -206,7 +207,6 @@ return [
                 'serializer' => 'array',
                 'elementType' => Entry::class,
                 'criteria' => ['section' => 'articles', 'orderBy' => 'postDate desc'],
-                'elementsPerPage' => 50,
                 'cache' => 'PT1M', // one minute
                 'transformer' => function(Entry $entry) {
 
@@ -279,6 +279,46 @@ return [
                     ];
                 },
             ];
-        },     
+        },  
+        'api/category/<slug:{slug}>.json' => function($slug) {
+            \Craft::$app->response->headers->set('Access-Control-Allow-Origin', '*');
+           
+            return [
+                'elementType' => Category::class,
+                'criteria' => ['slug' => $slug],
+                'transformer' => function(Category $category) {
+                    
+                    $entries = Entry::find()
+                        ->section('articles') // Replace with the handle of your section
+                        ->relatedTo($category)
+                        ->all();
+
+                    $entryData = [];
+
+                    foreach ($entries as $entry) {
+                        $entryData[] = [
+                            'title' => $entry->title,
+                            'slug' => $entry->slug,
+                            'articleTitle' => $entry->articleTitle,
+                            'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
+                            'articleExcerpt' => $entry->articleExcerpt,
+                            'articleFeaturedImage' => $entry->articleFeaturedImage,
+                            'url' => $entry->getUrl(),
+                        ];
+                    }
+
+                    return [
+                        'category' => [
+                            'title' => $category->title,
+                            'slug' => $category->slug,
+                            'url' => $category->getUrl(),
+                        ],
+                        'entries' => $entryData,
+                    ];
+
+                },
+            ];
+        }
+   
     ]
 ];
