@@ -7,7 +7,9 @@ name: 'Related Articles'
 searchable: false
 settings:
   allowSelfRelations: false
+  branchLimit: null
   localizeRelations: false
+  maintainHierarchy: false
   maxRelations: null
   minRelations: null
   selectionCondition:
@@ -23,7 +25,6 @@ settings:
         - craft\elements\conditions\entries\EntryCondition
   selectionLabel: null
   showSiteMenu: false
-  source: null
   sources:
     - 'section:b5af17cf-b5f1-4fef-bd1f-770763583356' # Articles
   targetSiteId: null
