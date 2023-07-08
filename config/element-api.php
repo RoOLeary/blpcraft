@@ -284,6 +284,7 @@ return [
             \Craft::$app->response->headers->set('Access-Control-Allow-Origin', '*');
            
             return [
+                'serializer' => 'array',
                 'elementType' => Category::class,
                 'criteria' => ['slug' => $slug],
                 'cache' => 'PT1M', // one minute
