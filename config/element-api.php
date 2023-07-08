@@ -306,7 +306,7 @@ return [
                             'articleTitle' => $entry->articleTitle,
                             'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                             'articleExcerpt' => $entry->articleExcerpt,
-                            'articleCategories' => $entry->articleCategory->all(), 
+                            'articleCategories' => $entry->articleCategory->one(), 
                             'articleFeaturedImage' => $entry->articleFeaturedImage,
                             'articleImageUrl' => $entry->articleImageUrl,
                             'articleImageAlt' => $entry->articleImageAlt,
