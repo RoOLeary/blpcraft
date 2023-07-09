@@ -1,4 +1,4 @@
-dateModified: 1688815499
+dateModified: 1688901862
 email:
   fromEmail: roleary81@gmail.com
   fromName: blpcraft
@@ -7,6 +7,7 @@ meta:
   __names__:
     0a0c46fa-0854-4aa0-8861-c8d21ddea837: 'Exp Intro Text' # Exp Intro Text
     0a2e93ad-4dc6-48c5-b91b-90ca0cf70c3e: 'Quote Title' # Quote Title
+    0b4c3257-1907-435e-9a37-6e42c265d97a: 'Formula One' # Formula One
     0e446a42-ea62-4b02-b300-253771e4a5f4: Contact # Contact
     0fdbaff3-ef01-4226-a50a-fbd326463602: 'Case Studies Title' # Case Studies Title
     0fdc14d0-dcd3-44c4-a3fd-8886740dceb1: 'Public Schema' # Public Schema
@@ -44,6 +45,7 @@ meta:
     21b7534d-7672-47ae-b26d-d5cb25cb3fdb: 'Exp Blurb' # Exp Blurb
     28bdcc08-449a-4a6a-bd4f-01ac2a95fb7e: 'Text Sub' # Text Sub
     28d1c4ec-145f-4b3d-80de-80258706e131: 'Industry Title' # Industry Title
+    35f73d0d-4021-46de-8f77-ca848ea789db: Football # Football
     36bdbce2-2825-426e-aba0-14055990c589: Answer # Answer
     42e21bcb-7d09-47a0-a09f-73630de0223e: Pages # Pages
     45ded856-e37a-43b6-8613-f4b00742bcbf: 'Text Emphasised Title' # Text Emphasised Title
@@ -52,6 +54,7 @@ meta:
     67c82c49-0b67-430e-9fcf-d86ec6a52116: 'Studio CTA' # Studio CTA
     67dfc232-2dd7-44bb-900b-28df01e555df: 'Text Content' # Text Content
     74f26786-16a0-4ac7-9d32-5ced0150b2ee: Studio # Studio
+    80e6c13b-9731-4f39-a04b-bfa9ec51847b: Sport # Sport
     82a05a0b-aa09-4d1a-b32b-183c733990fd: 'Article Title' # Article Title
     94c8ebe0-28eb-44a4-99f6-ddfe73bb6e27: Question # Question
     124ace79-506d-4549-b78b-844273b7e4c5: Quoter # Quoter
@@ -95,6 +98,7 @@ meta:
     a922132f-4676-4bc2-98c5-f375e05118d8: SubTitle # SubTitle
     ab8423ba-ed2f-4a50-9f8c-3e1f9f2bfc9f: Caption # Caption
     abed56c7-044e-4b22-af1d-dc0cc528b844: Contact # Contact
+    ac42d8bc-4a39-40be-9102-9f814d1bc48a: Golf # Golf
     ad5f656d-5a4b-46cd-b8c8-32dcce519bf3: 'Article Featured Image' # Article Featured Image
     ad575b29-c9e7-42ca-b2fa-894a02318574: 'Studio More About' # Studio More About
     af64c547-1d65-4871-aa82-edd8612f827f: Height # Height
@@ -109,7 +113,9 @@ meta:
     c7ebd782-62f3-4f77-b63b-2ba4a1a5b647: Studio # Studio
     c92d57de-10e9-49c9-95fd-3ce5a9d78ecb: Testimonial # Testimonial
     c162d5ac-fe2c-4df6-9440-84129853f3ba: GalleryGrid # GalleryGrid
+    c592f226-3b49-4ed9-816b-9f0ae68c42c1: 'Article Tags' # Article Tags
     c3234a73-1779-47fe-a7f1-4e4aa92de313: 'FAQ Leadtext' # FAQ Leadtext
+    c4310e89-9882-4b00-b8b4-37e0c597d9c2: Tennis # Tennis
     c8871f41-1c86-44e6-9a60-081437c515db: Events # Events
     c5458553-2173-4d34-8c44-a2460fa0f755: 'Testimonial Image' # Testimonial Image
     c9143182-9311-4ac3-bcd7-5e51772f2790: 'Text Block' # Text Block
@@ -145,6 +151,7 @@ meta:
     f87d1354-0d5f-4927-b6db-bcc62492451c: 'Exp Title' # Exp Title
     f99f15b0-c7dc-4388-bfc1-177955296c97: 'Testimonial Client' # Testimonial Client
     f289e817-0de6-4ee3-8e0b-cdabcbe4c4d9: 'Article Category' # Article Category
+    fcfa8467-f67f-4ecf-93ee-0c3db087a304: Cricket # Cricket
     fd4b2a3b-a501-4429-b0bd-005ad3856bae: 'FAQ Heading' # FAQ Heading
 plugins:
   copy:

@@ -1,0 +1,37 @@
+fieldLayouts:
+  031464ac-b461-47ee-b44e-a80464003227:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 181ba241-18a1-445f-9af7-c6ecf8eefa7f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d368c4ed-deb8-46dc-b7e4-6aaf68508ffc
+        userCondition: null
+handle: cricket
+name: Cricket

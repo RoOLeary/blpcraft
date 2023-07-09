@@ -1,0 +1,37 @@
+fieldLayouts:
+  ccc56a5d-56ef-41eb-894f-39305aa3bd70:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 45dd9ed9-6f0c-4ece-bdd0-bda9408f0ba9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d946f8dd-bc18-4e87-a744-17acadd4b489
+        userCondition: null
+handle: formulaOne
+name: 'Formula One'

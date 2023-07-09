@@ -1,0 +1,37 @@
+fieldLayouts:
+  24b35893-5388-4b32-b711-6512404fbb4c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 0a77cda1-5025-4421-bfbe-989aff1d7890
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ffb9ed8a-cf10-42ce-b2e9-5df56a8e94f2
+        userCondition: null
+handle: football
+name: Football

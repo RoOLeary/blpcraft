@@ -1,0 +1,37 @@
+fieldLayouts:
+  0fee96e0-fa03-465c-98a9-a309c475bc20:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: c5754b5e-42fb-405d-a1e3-ab720a39891c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 85d8d0b7-87f2-4ffe-87c4-113b661198da
+        userCondition: null
+handle: tennis
+name: Tennis
