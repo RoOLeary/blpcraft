@@ -297,25 +297,22 @@ return [
 
                     $entryData = [];
 
-                    // $cats = []; 
-                    // $articleCats = $entry->articleCategory->all();
-                    // foreach ($articleCats as $cat){
-                    //     $cats[] = [
-                    //         'title' => $cat->title,
-                    //         'slug' => $cat->slug,
-                    //     ];
-                    // }
-                    
-                   
-
                     foreach ($entries as $entry) {
+                        $categories = []; 
+                        $articleCats = $entry->articleCategory->all();
+                        foreach ($articleCats as $cat){
+                            $categories[] = [
+                                'title' => $cat->title,
+                                'slug' => $cat->slug,
+                            ];
+                        }
                         $entryData[] = [
                             'title' => $entry->title,
                             'slug' => $entry->slug,
                             'articleTitle' => $entry->articleTitle,
                             'articleTypePostDate' => $entry->postDate->format(\DateTime::ATOM),
                             'articleExcerpt' => $entry->articleExcerpt,
-                            'articleCategories' => $category->title, 
+                            'articleCategories' => $categories, 
                             'articleFeaturedImage' => $entry->articleFeaturedImage,
                             'articleImageUrl' => $entry->articleImageUrl,
                             'articleImageAlt' => $entry->articleImageAlt,
