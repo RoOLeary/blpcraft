@@ -306,6 +306,7 @@ return [
                                 'slug' => $cat->slug,
                             ];
                         }
+                        
                         $entryData[] = [
                             'title' => $entry->title,
                             'slug' => $entry->slug,
